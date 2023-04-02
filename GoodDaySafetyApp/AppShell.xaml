@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="GoodDaySafetyApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:GoodDaySafetyApp"
+    Shell.FlyoutBehavior="Flyout">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+    <ShellContent
+        Title="Unsafe Conditions"
+        ContentTemplate="{DataTemplate local:UnsafeConditions}"
+        Route="UnsafeConditions" />
+
+    <ShellContent
+        Title="Directional Area"
+        ContentTemplate="{DataTemplate local:DirectionalArea}"
+        Route="DirectionalArea" />
+</Shell>
