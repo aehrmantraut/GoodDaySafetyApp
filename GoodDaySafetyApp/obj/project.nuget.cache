@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "L0sTRjiN1JDfSx1+OSWLZ94UcKF5x3BJjqqvGE2pphD5b4nHKKhx0px9W8S3ziy7HLEpsJgomThhL8pEaqQ0rw==",
+  "dgSpecHash": "/EKXvPrr3Z9D/mLh9GOXQ8lzVfJkGbJLuSPp71clq6ZykY+fBhn4NnInK3V6XgNuHTiL/yjHWM/VBCeV71mR+Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\austi\\OneDrive\\Desktop\\School\\445\\github\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,8 @@
     "C:\\Users\\austi\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.59\\microsoft.maui.graphics.win2d.winui.desktop.7.0.59.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\austi\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\austi\\.nuget\\packages\\syncfusion.maui.core\\21.1.37\\syncfusion.maui.core.21.1.37.nupkg.sha512",
+    "C:\\Users\\austi\\.nuget\\packages\\syncfusion.maui.gauges\\21.1.37\\syncfusion.maui.gauges.21.1.37.nupkg.sha512",
     "C:\\Users\\austi\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\austi\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "C:\\Users\\austi\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.13.2.2\\xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",

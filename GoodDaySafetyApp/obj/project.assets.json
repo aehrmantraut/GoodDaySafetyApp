@@ -197,6 +197,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -2119,6 +2150,37 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".aar;.xml"
           }
         }
       },
@@ -4047,6 +4109,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -5969,6 +6062,37 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".aar;.xml"
           }
         }
       },
@@ -7897,6 +8021,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -9819,6 +9974,37 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".aar;.xml"
           }
         }
       },
@@ -11747,6 +11933,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -13672,6 +13889,37 @@
           }
         }
       },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -15583,6 +15831,37 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-ios16.1/android-arm": {
@@ -15765,6 +16044,37 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -15951,6 +16261,37 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-ios16.1/android-x64": {
@@ -16133,6 +16474,37 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -16319,6 +16691,37 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
@@ -16501,6 +16904,37 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -16687,6 +17121,37 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-ios16.1/win10-x64": {
@@ -16869,6 +17334,37 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -17055,6 +17551,37 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
@@ -17237,6 +17764,37 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -17423,6 +17981,37 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
@@ -17605,6 +18194,37 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -17791,6 +18411,37 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
@@ -17973,6 +18624,37 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -18159,6 +18841,37 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
@@ -18341,6 +19054,37 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -18665,6 +19409,37 @@
             "rid": "win10-x86"
           }
         }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
@@ -18958,6 +19733,37 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".deps.json;.xml"
+          }
         }
       }
     },
@@ -19253,6 +20059,37 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/android-x64": {
@@ -19546,6 +20383,37 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".deps.json;.xml"
+          }
         }
       }
     },
@@ -19841,6 +20709,37 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/iossimulator-x64": {
@@ -20135,6 +21034,37 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/maccatalyst-x64": {
@@ -20428,6 +21358,37 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".deps.json;.xml"
+          }
         }
       }
     },
@@ -20728,6 +21689,37 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
+            "related": ".deps.json;.xml"
+          }
         }
       }
     }
@@ -21964,6 +22956,94 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "Syncfusion.Maui.Core/21.1.37": {
+      "sha512": "1hZfwNOOpM575Vzy76Putu9E61VWutv+QaZyi4HP4dZk1klb586wPWGSqjt5TMbbtebHQj1yE0Vvji05zVro+w==",
+      "type": "package",
+      "path": "syncfusion.maui.core/21.1.37",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net6.0-android30.0/Syncfusion.Licensing.dll",
+        "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll",
+        "lib/net6.0-android30.0/Syncfusion.Maui.Core.xml",
+        "lib/net6.0-ios13.6/Syncfusion.Licensing.dll",
+        "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll",
+        "lib/net6.0-ios13.6/Syncfusion.Maui.Core.xml",
+        "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll",
+        "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll",
+        "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.xml",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.xml",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net6.0/Syncfusion.Maui.Core.dll",
+        "lib/net6.0/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-android30.0/Syncfusion.Licensing.dll",
+        "lib/net7.0-android30.0/Syncfusion.Maui.Core.aar",
+        "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-android30.0/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-ios13.6/Syncfusion.Licensing.dll",
+        "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-ios13.6/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll",
+        "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.xml",
+        "lib/net7.0/Syncfusion.Licensing.dll",
+        "lib/net7.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net7.0/Syncfusion.Maui.Core.dll",
+        "lib/net7.0/Syncfusion.Maui.Core.xml",
+        "syncfusion.maui.core.21.1.37.nupkg.sha512",
+        "syncfusion.maui.core.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Maui.Gauges/21.1.37": {
+      "sha512": "c76r6xF6H3hmhh7aaR/0w2xQuG2IJWXZ1Q+otggYdQ3E/wo2UghDLZlUw+35U41kUBaR+8T5CllUPjj8RwHgbg==",
+      "type": "package",
+      "path": "syncfusion.maui.gauges/21.1.37",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net6.0-android30.0/Syncfusion.Maui.Gauges.dll",
+        "lib/net6.0-android30.0/Syncfusion.Maui.Gauges.xml",
+        "lib/net6.0-ios13.6/Syncfusion.Maui.Gauges.dll",
+        "lib/net6.0-ios13.6/Syncfusion.Maui.Gauges.xml",
+        "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll",
+        "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Gauges.xml",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.deps.json",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.xml",
+        "lib/net6.0/Syncfusion.Maui.Gauges.deps.json",
+        "lib/net6.0/Syncfusion.Maui.Gauges.dll",
+        "lib/net6.0/Syncfusion.Maui.Gauges.xml",
+        "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.aar",
+        "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.dll",
+        "lib/net7.0-android30.0/Syncfusion.Maui.Gauges.xml",
+        "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll",
+        "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.xml",
+        "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll",
+        "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.xml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.xml",
+        "lib/net7.0/Syncfusion.Maui.Gauges.deps.json",
+        "lib/net7.0/Syncfusion.Maui.Gauges.dll",
+        "lib/net7.0/Syncfusion.Maui.Gauges.xml",
+        "syncfusion.maui.gauges.21.1.37.nupkg.sha512",
+        "syncfusion.maui.gauges.nuspec",
+        "syncfusion_logo.png"
       ]
     },
     "Xamarin.Android.Glide/4.13.2.2": {
@@ -23972,6 +25052,7 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.59",
+      "Syncfusion.Maui.Gauges >= 21.1.37",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -23990,7 +25071,8 @@
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.59"
+      "Microsoft.Maui.Graphics >= 7.0.59",
+      "Syncfusion.Maui.Gauges >= 21.1.37"
     ],
     "net7.0-maccatalyst16.1": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -23998,7 +25080,8 @@
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.59"
+      "Microsoft.Maui.Graphics >= 7.0.59",
+      "Syncfusion.Maui.Gauges >= 21.1.37"
     ],
     "net7.0-windows10.0.19041": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -24009,7 +25092,8 @@
       "Microsoft.Maui.Graphics >= 7.0.59",
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.59",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22621.755",
-      "Microsoft.WindowsAppSDK >= 1.2.221209.1"
+      "Microsoft.WindowsAppSDK >= 1.2.221209.1",
+      "Syncfusion.Maui.Gauges >= 21.1.37"
     ]
   },
   "packageFolders": {
@@ -24101,6 +25185,10 @@
             "target": "Package",
             "version": "[7.0.59, )",
             "autoReferenced": true
+          },
+          "Syncfusion.Maui.Gauges": {
+            "target": "Package",
+            "version": "[21.1.37, )"
           },
           "Xamarin.Android.Glide": {
             "target": "Package",
@@ -24219,6 +25307,10 @@
             "target": "Package",
             "version": "[7.0.59, )",
             "autoReferenced": true
+          },
+          "Syncfusion.Maui.Gauges": {
+            "target": "Package",
+            "version": "[21.1.37, )"
           }
         },
         "imports": [
@@ -24282,6 +25374,10 @@
             "target": "Package",
             "version": "[7.0.59, )",
             "autoReferenced": true
+          },
+          "Syncfusion.Maui.Gauges": {
+            "target": "Package",
+            "version": "[21.1.37, )"
           }
         },
         "imports": [
@@ -24362,6 +25458,10 @@
             "target": "Package",
             "version": "[1.2.221209.1, )",
             "autoReferenced": true
+          },
+          "Syncfusion.Maui.Gauges": {
+            "target": "Package",
+            "version": "[21.1.37, )"
           }
         },
         "imports": [
