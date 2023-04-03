@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GoodDaySafetyApp.UnsafeConditions"
+             Title="UnsafeConditions">
+    <ScrollView>
+        <VerticalStackLayout>
+            <HorizontalStackLayout VerticalOptions="Center">
+                <CheckBox/>
+                <Label Text="Vehicle, machine, or tool" VerticalOptions="Center"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout VerticalOptions="Center">
+                <CheckBox />
+                <Label Text="Electrical" VerticalOptions="Center"/>
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout VerticalOptions="Center">
+                <CheckBox />
+                <Label Text="Flammable or explosion " VerticalOptions="Center"/>
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout VerticalOptions="Center">
+                <CheckBox />
+                <Label Text="Breathing" VerticalOptions="Center"/>
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout VerticalOptions="Center">
+                <CheckBox />
+                <Label Text="Cutting or stabbing" VerticalOptions="Center"/>
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout VerticalOptions="Center">
+                <CheckBox />
+                <Label Text="Overhead" VerticalOptions="Center"/>
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout VerticalOptions="Center">
+                <CheckBox />
+                <Label Text="Struck or hit by" VerticalOptions="Center"/>
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout VerticalOptions="Center">
+                <CheckBox />
+                <Label Text="Unguarded opening or edge" VerticalOptions="Center"/>
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout VerticalOptions="Center">
+                <CheckBox/>
+                <Label Text="Uneven surface or tripping" VerticalOptions="Center"/>
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout VerticalOptions="Center">
+                <CheckBox />
+                <Label Text="Slippery" VerticalOptions="Center"/>
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout VerticalOptions="Center">
+                <CheckBox />
+                <Label Text="Unlit area" VerticalOptions="Center"/>
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout VerticalOptions="Center">
+                <CheckBox />
+                <Label Text="Other - describe in comments section" VerticalOptions="Center"/>
+
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
