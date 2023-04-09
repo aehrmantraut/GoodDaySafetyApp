@@ -2,6 +2,25 @@
   "version": 3,
   "targets": {
     "net7.0-android33.0": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Camera.Camera2": "1.2.0",
+          "Xamarin.AndroidX.Camera.Lifecycle": "1.2.0",
+          "Xamarin.AndroidX.Camera.View": "1.2.0",
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -393,25 +412,25 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Annotation.Experimental.targets": {}
         }
       },
-      "Xamarin.AndroidX.AppCompat/1.5.1": {
+      "Xamarin.AndroidX.AppCompat/1.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Activity": "1.5.1",
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.AppCompat.AppCompatResources": "1.5.1",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.9.0",
-          "Xamarin.AndroidX.Core.Core.Ktx": "1.9.0",
-          "Xamarin.AndroidX.CursorAdapter": "1.0.0.14",
-          "Xamarin.AndroidX.DrawerLayout": "1.1.1.9",
-          "Xamarin.AndroidX.Emoji2": "1.2.0",
-          "Xamarin.AndroidX.Emoji2.ViewsHelper": "1.2.0",
-          "Xamarin.AndroidX.Fragment": "1.5.2",
-          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1",
-          "Xamarin.AndroidX.Lifecycle.ViewModel": "2.5.1",
-          "Xamarin.AndroidX.ResourceInspection.Annotation": "1.0.1.2",
-          "Xamarin.AndroidX.SavedState": "1.2.0",
-          "Xamarin.Kotlin.StdLib": "1.7.10"
+          "Xamarin.AndroidX.Activity": "1.6.0.1",
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.AppCompat.AppCompatResources": "1.5.1.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Core.Core.Ktx": "1.9.0.1",
+          "Xamarin.AndroidX.CursorAdapter": "1.0.0.15",
+          "Xamarin.AndroidX.DrawerLayout": "1.1.1.10",
+          "Xamarin.AndroidX.Emoji2": "1.2.0.1",
+          "Xamarin.AndroidX.Emoji2.ViewsHelper": "1.2.0.1",
+          "Xamarin.AndroidX.Fragment": "1.5.3.1",
+          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1.1",
+          "Xamarin.AndroidX.Lifecycle.ViewModel": "2.5.1.1",
+          "Xamarin.AndroidX.ResourceInspection.Annotation": "1.0.1.3",
+          "Xamarin.AndroidX.SavedState": "1.2.0.1",
+          "Xamarin.Kotlin.StdLib": "1.7.20.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.dll": {
@@ -427,14 +446,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.AppCompat.targets": {}
         }
       },
-      "Xamarin.AndroidX.AppCompat.AppCompatResources/1.5.1": {
+      "Xamarin.AndroidX.AppCompat.AppCompatResources/1.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.9.0",
-          "Xamarin.AndroidX.VectorDrawable": "1.1.0.14",
-          "Xamarin.AndroidX.VectorDrawable.Animated": "1.1.0.14"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.VectorDrawable": "1.1.0.15",
+          "Xamarin.AndroidX.VectorDrawable.Animated": "1.1.0.15"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.AppCompatResources.dll": {
@@ -531,6 +550,110 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Browser.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Camera2/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Core/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Annotation.Experimental": "1.3.0.1",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.ExifInterface": "1.3.5",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.AndroidX.Lifecycle.LiveData": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10",
+          "Xamarin.Kotlin.StdLib": "1.7.22"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Lifecycle/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.View/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Annotation.Experimental": "1.3.0.1",
+          "Xamarin.AndroidX.AppCompat": "1.5.1.1",
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Camera.Lifecycle": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.View.targets": {}
         }
       },
       "Xamarin.AndroidX.CardView/1.0.0.16": {
@@ -816,14 +939,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.DynamicAnimation.targets": {}
         }
       },
-      "Xamarin.AndroidX.Emoji2/1.2.0": {
+      "Xamarin.AndroidX.Emoji2/1.2.0.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1",
-          "Xamarin.AndroidX.Lifecycle.Process": "2.5.1",
-          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.2"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Process": "2.5.1.1",
+          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.3"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.dll": {
@@ -839,12 +962,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Emoji2.targets": {}
         }
       },
-      "Xamarin.AndroidX.Emoji2.ViewsHelper/1.2.0": {
+      "Xamarin.AndroidX.Emoji2.ViewsHelper/1.2.0.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1",
-          "Xamarin.AndroidX.Emoji2": "1.2.0"
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Emoji2": "1.2.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.dll": {
@@ -860,10 +983,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.targets": {}
         }
       },
-      "Xamarin.AndroidX.ExifInterface/1.3.3.5": {
+      "Xamarin.AndroidX.ExifInterface/1.3.5": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.3"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.ExifInterface.dll": {
@@ -1112,12 +1235,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Lifecycle.LiveData.Core.Ktx.targets": {}
         }
       },
-      "Xamarin.AndroidX.Lifecycle.Process/2.5.1": {
+      "Xamarin.AndroidX.Lifecycle.Process/2.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1",
-          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.2"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1.1",
+          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.3"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Lifecycle.Process.dll": {
@@ -1444,10 +1567,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.RecyclerView.targets": {}
         }
       },
-      "Xamarin.AndroidX.ResourceInspection.Annotation/1.0.1.2": {
+      "Xamarin.AndroidX.ResourceInspection.Annotation/1.0.1.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.ResourceInspection.Annotation.dll": {
@@ -1549,11 +1672,11 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.SlidingPaneLayout.targets": {}
         }
       },
-      "Xamarin.AndroidX.Startup.StartupRuntime/1.1.1.2": {
+      "Xamarin.AndroidX.Startup.StartupRuntime/1.1.1.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4",
-          "Xamarin.AndroidX.Tracing.Tracing": "1.1.0.1"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Tracing.Tracing": "1.1.0.2"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Startup.StartupRuntime.dll": {
@@ -1631,12 +1754,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Transition.targets": {}
         }
       },
-      "Xamarin.AndroidX.VectorDrawable/1.1.0.14": {
+      "Xamarin.AndroidX.VectorDrawable/1.1.0.15": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.dll": {
@@ -1652,12 +1775,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.targets": {}
         }
       },
-      "Xamarin.AndroidX.VectorDrawable.Animated/1.1.0.14": {
+      "Xamarin.AndroidX.VectorDrawable.Animated/1.1.0.15": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Interpolator": "1.0.0.14",
-          "Xamarin.AndroidX.VectorDrawable": "1.1.0.14"
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Interpolator": "1.0.0.15",
+          "Xamarin.AndroidX.VectorDrawable": "1.1.0.15"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.Animated.dll": {
@@ -1793,6 +1916,19 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Android.Material.targets": {}
         }
       },
+      "Xamarin.Google.AutoValue.Annotations/1.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Google.Crypto.Tink.Android/1.7.0.1": {
         "type": "package",
         "dependencies": {
@@ -1841,11 +1977,11 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib/1.7.22": {
         "type": "package",
         "dependencies": {
           "Xamarin.Jetbrains.Annotations": "23.0.0.5",
-          "Xamarin.Kotlin.StdLib.Common": "1.7.20.1"
+          "Xamarin.Kotlin.StdLib.Common": "1.7.22"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll": {
@@ -1861,7 +1997,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib.Common/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib.Common/1.7.22": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.dll": {
@@ -1954,10 +2090,42 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
         }
       }
     },
     "net7.0-android33.0/android-arm": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Camera.Camera2": "1.2.0",
+          "Xamarin.AndroidX.Camera.Lifecycle": "1.2.0",
+          "Xamarin.AndroidX.Camera.View": "1.2.0",
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -2349,25 +2517,25 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Annotation.Experimental.targets": {}
         }
       },
-      "Xamarin.AndroidX.AppCompat/1.5.1": {
+      "Xamarin.AndroidX.AppCompat/1.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Activity": "1.5.1",
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.AppCompat.AppCompatResources": "1.5.1",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.9.0",
-          "Xamarin.AndroidX.Core.Core.Ktx": "1.9.0",
-          "Xamarin.AndroidX.CursorAdapter": "1.0.0.14",
-          "Xamarin.AndroidX.DrawerLayout": "1.1.1.9",
-          "Xamarin.AndroidX.Emoji2": "1.2.0",
-          "Xamarin.AndroidX.Emoji2.ViewsHelper": "1.2.0",
-          "Xamarin.AndroidX.Fragment": "1.5.2",
-          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1",
-          "Xamarin.AndroidX.Lifecycle.ViewModel": "2.5.1",
-          "Xamarin.AndroidX.ResourceInspection.Annotation": "1.0.1.2",
-          "Xamarin.AndroidX.SavedState": "1.2.0",
-          "Xamarin.Kotlin.StdLib": "1.7.10"
+          "Xamarin.AndroidX.Activity": "1.6.0.1",
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.AppCompat.AppCompatResources": "1.5.1.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Core.Core.Ktx": "1.9.0.1",
+          "Xamarin.AndroidX.CursorAdapter": "1.0.0.15",
+          "Xamarin.AndroidX.DrawerLayout": "1.1.1.10",
+          "Xamarin.AndroidX.Emoji2": "1.2.0.1",
+          "Xamarin.AndroidX.Emoji2.ViewsHelper": "1.2.0.1",
+          "Xamarin.AndroidX.Fragment": "1.5.3.1",
+          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1.1",
+          "Xamarin.AndroidX.Lifecycle.ViewModel": "2.5.1.1",
+          "Xamarin.AndroidX.ResourceInspection.Annotation": "1.0.1.3",
+          "Xamarin.AndroidX.SavedState": "1.2.0.1",
+          "Xamarin.Kotlin.StdLib": "1.7.20.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.dll": {
@@ -2383,14 +2551,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.AppCompat.targets": {}
         }
       },
-      "Xamarin.AndroidX.AppCompat.AppCompatResources/1.5.1": {
+      "Xamarin.AndroidX.AppCompat.AppCompatResources/1.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.9.0",
-          "Xamarin.AndroidX.VectorDrawable": "1.1.0.14",
-          "Xamarin.AndroidX.VectorDrawable.Animated": "1.1.0.14"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.VectorDrawable": "1.1.0.15",
+          "Xamarin.AndroidX.VectorDrawable.Animated": "1.1.0.15"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.AppCompatResources.dll": {
@@ -2487,6 +2655,110 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Browser.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Camera2/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Core/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Annotation.Experimental": "1.3.0.1",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.ExifInterface": "1.3.5",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.AndroidX.Lifecycle.LiveData": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10",
+          "Xamarin.Kotlin.StdLib": "1.7.22"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Lifecycle/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.View/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Annotation.Experimental": "1.3.0.1",
+          "Xamarin.AndroidX.AppCompat": "1.5.1.1",
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Camera.Lifecycle": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.View.targets": {}
         }
       },
       "Xamarin.AndroidX.CardView/1.0.0.16": {
@@ -2772,14 +3044,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.DynamicAnimation.targets": {}
         }
       },
-      "Xamarin.AndroidX.Emoji2/1.2.0": {
+      "Xamarin.AndroidX.Emoji2/1.2.0.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1",
-          "Xamarin.AndroidX.Lifecycle.Process": "2.5.1",
-          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.2"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Process": "2.5.1.1",
+          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.3"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.dll": {
@@ -2795,12 +3067,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Emoji2.targets": {}
         }
       },
-      "Xamarin.AndroidX.Emoji2.ViewsHelper/1.2.0": {
+      "Xamarin.AndroidX.Emoji2.ViewsHelper/1.2.0.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1",
-          "Xamarin.AndroidX.Emoji2": "1.2.0"
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Emoji2": "1.2.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.dll": {
@@ -2816,10 +3088,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.targets": {}
         }
       },
-      "Xamarin.AndroidX.ExifInterface/1.3.3.5": {
+      "Xamarin.AndroidX.ExifInterface/1.3.5": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.3"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.ExifInterface.dll": {
@@ -3068,12 +3340,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Lifecycle.LiveData.Core.Ktx.targets": {}
         }
       },
-      "Xamarin.AndroidX.Lifecycle.Process/2.5.1": {
+      "Xamarin.AndroidX.Lifecycle.Process/2.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1",
-          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.2"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1.1",
+          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.3"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Lifecycle.Process.dll": {
@@ -3400,10 +3672,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.RecyclerView.targets": {}
         }
       },
-      "Xamarin.AndroidX.ResourceInspection.Annotation/1.0.1.2": {
+      "Xamarin.AndroidX.ResourceInspection.Annotation/1.0.1.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.ResourceInspection.Annotation.dll": {
@@ -3505,11 +3777,11 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.SlidingPaneLayout.targets": {}
         }
       },
-      "Xamarin.AndroidX.Startup.StartupRuntime/1.1.1.2": {
+      "Xamarin.AndroidX.Startup.StartupRuntime/1.1.1.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4",
-          "Xamarin.AndroidX.Tracing.Tracing": "1.1.0.1"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Tracing.Tracing": "1.1.0.2"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Startup.StartupRuntime.dll": {
@@ -3587,12 +3859,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Transition.targets": {}
         }
       },
-      "Xamarin.AndroidX.VectorDrawable/1.1.0.14": {
+      "Xamarin.AndroidX.VectorDrawable/1.1.0.15": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.dll": {
@@ -3608,12 +3880,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.targets": {}
         }
       },
-      "Xamarin.AndroidX.VectorDrawable.Animated/1.1.0.14": {
+      "Xamarin.AndroidX.VectorDrawable.Animated/1.1.0.15": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Interpolator": "1.0.0.14",
-          "Xamarin.AndroidX.VectorDrawable": "1.1.0.14"
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Interpolator": "1.0.0.15",
+          "Xamarin.AndroidX.VectorDrawable": "1.1.0.15"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.Animated.dll": {
@@ -3749,6 +4021,19 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Android.Material.targets": {}
         }
       },
+      "Xamarin.Google.AutoValue.Annotations/1.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Google.Crypto.Tink.Android/1.7.0.1": {
         "type": "package",
         "dependencies": {
@@ -3797,11 +4082,11 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib/1.7.22": {
         "type": "package",
         "dependencies": {
           "Xamarin.Jetbrains.Annotations": "23.0.0.5",
-          "Xamarin.Kotlin.StdLib.Common": "1.7.20.1"
+          "Xamarin.Kotlin.StdLib.Common": "1.7.22"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll": {
@@ -3817,7 +4102,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib.Common/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib.Common/1.7.22": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.dll": {
@@ -3910,10 +4195,42 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
         }
       }
     },
     "net7.0-android33.0/android-arm64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Camera.Camera2": "1.2.0",
+          "Xamarin.AndroidX.Camera.Lifecycle": "1.2.0",
+          "Xamarin.AndroidX.Camera.View": "1.2.0",
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -4305,25 +4622,25 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Annotation.Experimental.targets": {}
         }
       },
-      "Xamarin.AndroidX.AppCompat/1.5.1": {
+      "Xamarin.AndroidX.AppCompat/1.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Activity": "1.5.1",
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.AppCompat.AppCompatResources": "1.5.1",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.9.0",
-          "Xamarin.AndroidX.Core.Core.Ktx": "1.9.0",
-          "Xamarin.AndroidX.CursorAdapter": "1.0.0.14",
-          "Xamarin.AndroidX.DrawerLayout": "1.1.1.9",
-          "Xamarin.AndroidX.Emoji2": "1.2.0",
-          "Xamarin.AndroidX.Emoji2.ViewsHelper": "1.2.0",
-          "Xamarin.AndroidX.Fragment": "1.5.2",
-          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1",
-          "Xamarin.AndroidX.Lifecycle.ViewModel": "2.5.1",
-          "Xamarin.AndroidX.ResourceInspection.Annotation": "1.0.1.2",
-          "Xamarin.AndroidX.SavedState": "1.2.0",
-          "Xamarin.Kotlin.StdLib": "1.7.10"
+          "Xamarin.AndroidX.Activity": "1.6.0.1",
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.AppCompat.AppCompatResources": "1.5.1.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Core.Core.Ktx": "1.9.0.1",
+          "Xamarin.AndroidX.CursorAdapter": "1.0.0.15",
+          "Xamarin.AndroidX.DrawerLayout": "1.1.1.10",
+          "Xamarin.AndroidX.Emoji2": "1.2.0.1",
+          "Xamarin.AndroidX.Emoji2.ViewsHelper": "1.2.0.1",
+          "Xamarin.AndroidX.Fragment": "1.5.3.1",
+          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1.1",
+          "Xamarin.AndroidX.Lifecycle.ViewModel": "2.5.1.1",
+          "Xamarin.AndroidX.ResourceInspection.Annotation": "1.0.1.3",
+          "Xamarin.AndroidX.SavedState": "1.2.0.1",
+          "Xamarin.Kotlin.StdLib": "1.7.20.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.dll": {
@@ -4339,14 +4656,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.AppCompat.targets": {}
         }
       },
-      "Xamarin.AndroidX.AppCompat.AppCompatResources/1.5.1": {
+      "Xamarin.AndroidX.AppCompat.AppCompatResources/1.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.9.0",
-          "Xamarin.AndroidX.VectorDrawable": "1.1.0.14",
-          "Xamarin.AndroidX.VectorDrawable.Animated": "1.1.0.14"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.VectorDrawable": "1.1.0.15",
+          "Xamarin.AndroidX.VectorDrawable.Animated": "1.1.0.15"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.AppCompatResources.dll": {
@@ -4443,6 +4760,110 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Browser.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Camera2/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Core/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Annotation.Experimental": "1.3.0.1",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.ExifInterface": "1.3.5",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.AndroidX.Lifecycle.LiveData": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10",
+          "Xamarin.Kotlin.StdLib": "1.7.22"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Lifecycle/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.View/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Annotation.Experimental": "1.3.0.1",
+          "Xamarin.AndroidX.AppCompat": "1.5.1.1",
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Camera.Lifecycle": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.View.targets": {}
         }
       },
       "Xamarin.AndroidX.CardView/1.0.0.16": {
@@ -4728,14 +5149,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.DynamicAnimation.targets": {}
         }
       },
-      "Xamarin.AndroidX.Emoji2/1.2.0": {
+      "Xamarin.AndroidX.Emoji2/1.2.0.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1",
-          "Xamarin.AndroidX.Lifecycle.Process": "2.5.1",
-          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.2"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Process": "2.5.1.1",
+          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.3"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.dll": {
@@ -4751,12 +5172,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Emoji2.targets": {}
         }
       },
-      "Xamarin.AndroidX.Emoji2.ViewsHelper/1.2.0": {
+      "Xamarin.AndroidX.Emoji2.ViewsHelper/1.2.0.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1",
-          "Xamarin.AndroidX.Emoji2": "1.2.0"
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Emoji2": "1.2.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.dll": {
@@ -4772,10 +5193,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.targets": {}
         }
       },
-      "Xamarin.AndroidX.ExifInterface/1.3.3.5": {
+      "Xamarin.AndroidX.ExifInterface/1.3.5": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.3"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.ExifInterface.dll": {
@@ -5024,12 +5445,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Lifecycle.LiveData.Core.Ktx.targets": {}
         }
       },
-      "Xamarin.AndroidX.Lifecycle.Process/2.5.1": {
+      "Xamarin.AndroidX.Lifecycle.Process/2.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1",
-          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.2"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1.1",
+          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.3"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Lifecycle.Process.dll": {
@@ -5356,10 +5777,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.RecyclerView.targets": {}
         }
       },
-      "Xamarin.AndroidX.ResourceInspection.Annotation/1.0.1.2": {
+      "Xamarin.AndroidX.ResourceInspection.Annotation/1.0.1.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.ResourceInspection.Annotation.dll": {
@@ -5461,11 +5882,11 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.SlidingPaneLayout.targets": {}
         }
       },
-      "Xamarin.AndroidX.Startup.StartupRuntime/1.1.1.2": {
+      "Xamarin.AndroidX.Startup.StartupRuntime/1.1.1.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4",
-          "Xamarin.AndroidX.Tracing.Tracing": "1.1.0.1"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Tracing.Tracing": "1.1.0.2"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Startup.StartupRuntime.dll": {
@@ -5543,12 +5964,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Transition.targets": {}
         }
       },
-      "Xamarin.AndroidX.VectorDrawable/1.1.0.14": {
+      "Xamarin.AndroidX.VectorDrawable/1.1.0.15": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.dll": {
@@ -5564,12 +5985,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.targets": {}
         }
       },
-      "Xamarin.AndroidX.VectorDrawable.Animated/1.1.0.14": {
+      "Xamarin.AndroidX.VectorDrawable.Animated/1.1.0.15": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Interpolator": "1.0.0.14",
-          "Xamarin.AndroidX.VectorDrawable": "1.1.0.14"
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Interpolator": "1.0.0.15",
+          "Xamarin.AndroidX.VectorDrawable": "1.1.0.15"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.Animated.dll": {
@@ -5705,6 +6126,19 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Android.Material.targets": {}
         }
       },
+      "Xamarin.Google.AutoValue.Annotations/1.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Google.Crypto.Tink.Android/1.7.0.1": {
         "type": "package",
         "dependencies": {
@@ -5753,11 +6187,11 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib/1.7.22": {
         "type": "package",
         "dependencies": {
           "Xamarin.Jetbrains.Annotations": "23.0.0.5",
-          "Xamarin.Kotlin.StdLib.Common": "1.7.20.1"
+          "Xamarin.Kotlin.StdLib.Common": "1.7.22"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll": {
@@ -5773,7 +6207,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib.Common/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib.Common/1.7.22": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.dll": {
@@ -5866,10 +6300,42 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
         }
       }
     },
     "net7.0-android33.0/android-x64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Camera.Camera2": "1.2.0",
+          "Xamarin.AndroidX.Camera.Lifecycle": "1.2.0",
+          "Xamarin.AndroidX.Camera.View": "1.2.0",
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -6261,25 +6727,25 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Annotation.Experimental.targets": {}
         }
       },
-      "Xamarin.AndroidX.AppCompat/1.5.1": {
+      "Xamarin.AndroidX.AppCompat/1.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Activity": "1.5.1",
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.AppCompat.AppCompatResources": "1.5.1",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.9.0",
-          "Xamarin.AndroidX.Core.Core.Ktx": "1.9.0",
-          "Xamarin.AndroidX.CursorAdapter": "1.0.0.14",
-          "Xamarin.AndroidX.DrawerLayout": "1.1.1.9",
-          "Xamarin.AndroidX.Emoji2": "1.2.0",
-          "Xamarin.AndroidX.Emoji2.ViewsHelper": "1.2.0",
-          "Xamarin.AndroidX.Fragment": "1.5.2",
-          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1",
-          "Xamarin.AndroidX.Lifecycle.ViewModel": "2.5.1",
-          "Xamarin.AndroidX.ResourceInspection.Annotation": "1.0.1.2",
-          "Xamarin.AndroidX.SavedState": "1.2.0",
-          "Xamarin.Kotlin.StdLib": "1.7.10"
+          "Xamarin.AndroidX.Activity": "1.6.0.1",
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.AppCompat.AppCompatResources": "1.5.1.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Core.Core.Ktx": "1.9.0.1",
+          "Xamarin.AndroidX.CursorAdapter": "1.0.0.15",
+          "Xamarin.AndroidX.DrawerLayout": "1.1.1.10",
+          "Xamarin.AndroidX.Emoji2": "1.2.0.1",
+          "Xamarin.AndroidX.Emoji2.ViewsHelper": "1.2.0.1",
+          "Xamarin.AndroidX.Fragment": "1.5.3.1",
+          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1.1",
+          "Xamarin.AndroidX.Lifecycle.ViewModel": "2.5.1.1",
+          "Xamarin.AndroidX.ResourceInspection.Annotation": "1.0.1.3",
+          "Xamarin.AndroidX.SavedState": "1.2.0.1",
+          "Xamarin.Kotlin.StdLib": "1.7.20.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.dll": {
@@ -6295,14 +6761,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.AppCompat.targets": {}
         }
       },
-      "Xamarin.AndroidX.AppCompat.AppCompatResources/1.5.1": {
+      "Xamarin.AndroidX.AppCompat.AppCompatResources/1.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.9.0",
-          "Xamarin.AndroidX.VectorDrawable": "1.1.0.14",
-          "Xamarin.AndroidX.VectorDrawable.Animated": "1.1.0.14"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.VectorDrawable": "1.1.0.15",
+          "Xamarin.AndroidX.VectorDrawable.Animated": "1.1.0.15"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.AppCompatResources.dll": {
@@ -6399,6 +6865,110 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Browser.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Camera2/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Core/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Annotation.Experimental": "1.3.0.1",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.ExifInterface": "1.3.5",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.AndroidX.Lifecycle.LiveData": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10",
+          "Xamarin.Kotlin.StdLib": "1.7.22"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Lifecycle/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.View/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Annotation.Experimental": "1.3.0.1",
+          "Xamarin.AndroidX.AppCompat": "1.5.1.1",
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Camera.Lifecycle": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.View.targets": {}
         }
       },
       "Xamarin.AndroidX.CardView/1.0.0.16": {
@@ -6684,14 +7254,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.DynamicAnimation.targets": {}
         }
       },
-      "Xamarin.AndroidX.Emoji2/1.2.0": {
+      "Xamarin.AndroidX.Emoji2/1.2.0.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1",
-          "Xamarin.AndroidX.Lifecycle.Process": "2.5.1",
-          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.2"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Process": "2.5.1.1",
+          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.3"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.dll": {
@@ -6707,12 +7277,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Emoji2.targets": {}
         }
       },
-      "Xamarin.AndroidX.Emoji2.ViewsHelper/1.2.0": {
+      "Xamarin.AndroidX.Emoji2.ViewsHelper/1.2.0.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1",
-          "Xamarin.AndroidX.Emoji2": "1.2.0"
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Emoji2": "1.2.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.dll": {
@@ -6728,10 +7298,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.targets": {}
         }
       },
-      "Xamarin.AndroidX.ExifInterface/1.3.3.5": {
+      "Xamarin.AndroidX.ExifInterface/1.3.5": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.3"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.ExifInterface.dll": {
@@ -6980,12 +7550,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Lifecycle.LiveData.Core.Ktx.targets": {}
         }
       },
-      "Xamarin.AndroidX.Lifecycle.Process/2.5.1": {
+      "Xamarin.AndroidX.Lifecycle.Process/2.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1",
-          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.2"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1.1",
+          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.3"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Lifecycle.Process.dll": {
@@ -7312,10 +7882,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.RecyclerView.targets": {}
         }
       },
-      "Xamarin.AndroidX.ResourceInspection.Annotation/1.0.1.2": {
+      "Xamarin.AndroidX.ResourceInspection.Annotation/1.0.1.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.ResourceInspection.Annotation.dll": {
@@ -7417,11 +7987,11 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.SlidingPaneLayout.targets": {}
         }
       },
-      "Xamarin.AndroidX.Startup.StartupRuntime/1.1.1.2": {
+      "Xamarin.AndroidX.Startup.StartupRuntime/1.1.1.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4",
-          "Xamarin.AndroidX.Tracing.Tracing": "1.1.0.1"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Tracing.Tracing": "1.1.0.2"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Startup.StartupRuntime.dll": {
@@ -7499,12 +8069,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Transition.targets": {}
         }
       },
-      "Xamarin.AndroidX.VectorDrawable/1.1.0.14": {
+      "Xamarin.AndroidX.VectorDrawable/1.1.0.15": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.dll": {
@@ -7520,12 +8090,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.targets": {}
         }
       },
-      "Xamarin.AndroidX.VectorDrawable.Animated/1.1.0.14": {
+      "Xamarin.AndroidX.VectorDrawable.Animated/1.1.0.15": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Interpolator": "1.0.0.14",
-          "Xamarin.AndroidX.VectorDrawable": "1.1.0.14"
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Interpolator": "1.0.0.15",
+          "Xamarin.AndroidX.VectorDrawable": "1.1.0.15"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.Animated.dll": {
@@ -7661,6 +8231,19 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Android.Material.targets": {}
         }
       },
+      "Xamarin.Google.AutoValue.Annotations/1.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Google.Crypto.Tink.Android/1.7.0.1": {
         "type": "package",
         "dependencies": {
@@ -7709,11 +8292,11 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib/1.7.22": {
         "type": "package",
         "dependencies": {
           "Xamarin.Jetbrains.Annotations": "23.0.0.5",
-          "Xamarin.Kotlin.StdLib.Common": "1.7.20.1"
+          "Xamarin.Kotlin.StdLib.Common": "1.7.22"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll": {
@@ -7729,7 +8312,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib.Common/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib.Common/1.7.22": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.dll": {
@@ -7822,10 +8405,42 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
         }
       }
     },
     "net7.0-android33.0/android-x86": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Camera.Camera2": "1.2.0",
+          "Xamarin.AndroidX.Camera.Lifecycle": "1.2.0",
+          "Xamarin.AndroidX.Camera.View": "1.2.0",
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -8217,25 +8832,25 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Annotation.Experimental.targets": {}
         }
       },
-      "Xamarin.AndroidX.AppCompat/1.5.1": {
+      "Xamarin.AndroidX.AppCompat/1.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Activity": "1.5.1",
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.AppCompat.AppCompatResources": "1.5.1",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.9.0",
-          "Xamarin.AndroidX.Core.Core.Ktx": "1.9.0",
-          "Xamarin.AndroidX.CursorAdapter": "1.0.0.14",
-          "Xamarin.AndroidX.DrawerLayout": "1.1.1.9",
-          "Xamarin.AndroidX.Emoji2": "1.2.0",
-          "Xamarin.AndroidX.Emoji2.ViewsHelper": "1.2.0",
-          "Xamarin.AndroidX.Fragment": "1.5.2",
-          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1",
-          "Xamarin.AndroidX.Lifecycle.ViewModel": "2.5.1",
-          "Xamarin.AndroidX.ResourceInspection.Annotation": "1.0.1.2",
-          "Xamarin.AndroidX.SavedState": "1.2.0",
-          "Xamarin.Kotlin.StdLib": "1.7.10"
+          "Xamarin.AndroidX.Activity": "1.6.0.1",
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.AppCompat.AppCompatResources": "1.5.1.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Core.Core.Ktx": "1.9.0.1",
+          "Xamarin.AndroidX.CursorAdapter": "1.0.0.15",
+          "Xamarin.AndroidX.DrawerLayout": "1.1.1.10",
+          "Xamarin.AndroidX.Emoji2": "1.2.0.1",
+          "Xamarin.AndroidX.Emoji2.ViewsHelper": "1.2.0.1",
+          "Xamarin.AndroidX.Fragment": "1.5.3.1",
+          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1.1",
+          "Xamarin.AndroidX.Lifecycle.ViewModel": "2.5.1.1",
+          "Xamarin.AndroidX.ResourceInspection.Annotation": "1.0.1.3",
+          "Xamarin.AndroidX.SavedState": "1.2.0.1",
+          "Xamarin.Kotlin.StdLib": "1.7.20.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.dll": {
@@ -8251,14 +8866,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.AppCompat.targets": {}
         }
       },
-      "Xamarin.AndroidX.AppCompat.AppCompatResources/1.5.1": {
+      "Xamarin.AndroidX.AppCompat.AppCompatResources/1.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.9.0",
-          "Xamarin.AndroidX.VectorDrawable": "1.1.0.14",
-          "Xamarin.AndroidX.VectorDrawable.Animated": "1.1.0.14"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.VectorDrawable": "1.1.0.15",
+          "Xamarin.AndroidX.VectorDrawable.Animated": "1.1.0.15"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.AppCompatResources.dll": {
@@ -8355,6 +8970,110 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Browser.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Camera2/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Core/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Annotation.Experimental": "1.3.0.1",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.ExifInterface": "1.3.5",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.AndroidX.Lifecycle.LiveData": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10",
+          "Xamarin.Kotlin.StdLib": "1.7.22"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Lifecycle/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.View/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Annotation.Experimental": "1.3.0.1",
+          "Xamarin.AndroidX.AppCompat": "1.5.1.1",
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Camera.Lifecycle": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.View.targets": {}
         }
       },
       "Xamarin.AndroidX.CardView/1.0.0.16": {
@@ -8640,14 +9359,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.DynamicAnimation.targets": {}
         }
       },
-      "Xamarin.AndroidX.Emoji2/1.2.0": {
+      "Xamarin.AndroidX.Emoji2/1.2.0.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1",
-          "Xamarin.AndroidX.Lifecycle.Process": "2.5.1",
-          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.2"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Process": "2.5.1.1",
+          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.3"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.dll": {
@@ -8663,12 +9382,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Emoji2.targets": {}
         }
       },
-      "Xamarin.AndroidX.Emoji2.ViewsHelper/1.2.0": {
+      "Xamarin.AndroidX.Emoji2.ViewsHelper/1.2.0.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1",
-          "Xamarin.AndroidX.Emoji2": "1.2.0"
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Emoji2": "1.2.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.dll": {
@@ -8684,10 +9403,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.targets": {}
         }
       },
-      "Xamarin.AndroidX.ExifInterface/1.3.3.5": {
+      "Xamarin.AndroidX.ExifInterface/1.3.5": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.3"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.ExifInterface.dll": {
@@ -8936,12 +9655,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Lifecycle.LiveData.Core.Ktx.targets": {}
         }
       },
-      "Xamarin.AndroidX.Lifecycle.Process/2.5.1": {
+      "Xamarin.AndroidX.Lifecycle.Process/2.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1",
-          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.2"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1.1",
+          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.3"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Lifecycle.Process.dll": {
@@ -9268,10 +9987,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.RecyclerView.targets": {}
         }
       },
-      "Xamarin.AndroidX.ResourceInspection.Annotation/1.0.1.2": {
+      "Xamarin.AndroidX.ResourceInspection.Annotation/1.0.1.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.ResourceInspection.Annotation.dll": {
@@ -9373,11 +10092,11 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.SlidingPaneLayout.targets": {}
         }
       },
-      "Xamarin.AndroidX.Startup.StartupRuntime/1.1.1.2": {
+      "Xamarin.AndroidX.Startup.StartupRuntime/1.1.1.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4",
-          "Xamarin.AndroidX.Tracing.Tracing": "1.1.0.1"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Tracing.Tracing": "1.1.0.2"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Startup.StartupRuntime.dll": {
@@ -9455,12 +10174,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Transition.targets": {}
         }
       },
-      "Xamarin.AndroidX.VectorDrawable/1.1.0.14": {
+      "Xamarin.AndroidX.VectorDrawable/1.1.0.15": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.dll": {
@@ -9476,12 +10195,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.targets": {}
         }
       },
-      "Xamarin.AndroidX.VectorDrawable.Animated/1.1.0.14": {
+      "Xamarin.AndroidX.VectorDrawable.Animated/1.1.0.15": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Interpolator": "1.0.0.14",
-          "Xamarin.AndroidX.VectorDrawable": "1.1.0.14"
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Interpolator": "1.0.0.15",
+          "Xamarin.AndroidX.VectorDrawable": "1.1.0.15"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.Animated.dll": {
@@ -9617,6 +10336,19 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Android.Material.targets": {}
         }
       },
+      "Xamarin.Google.AutoValue.Annotations/1.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Google.Crypto.Tink.Android/1.7.0.1": {
         "type": "package",
         "dependencies": {
@@ -9665,11 +10397,11 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib/1.7.22": {
         "type": "package",
         "dependencies": {
           "Xamarin.Jetbrains.Annotations": "23.0.0.5",
-          "Xamarin.Kotlin.StdLib.Common": "1.7.20.1"
+          "Xamarin.Kotlin.StdLib.Common": "1.7.22"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll": {
@@ -9685,7 +10417,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib.Common/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib.Common/1.7.22": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.dll": {
@@ -9778,10 +10510,42 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
         }
       }
     },
     "net7.0-android33.0/iossimulator-x64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Camera.Camera2": "1.2.0",
+          "Xamarin.AndroidX.Camera.Lifecycle": "1.2.0",
+          "Xamarin.AndroidX.Camera.View": "1.2.0",
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -10173,25 +10937,25 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Annotation.Experimental.targets": {}
         }
       },
-      "Xamarin.AndroidX.AppCompat/1.5.1": {
+      "Xamarin.AndroidX.AppCompat/1.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Activity": "1.5.1",
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.AppCompat.AppCompatResources": "1.5.1",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.9.0",
-          "Xamarin.AndroidX.Core.Core.Ktx": "1.9.0",
-          "Xamarin.AndroidX.CursorAdapter": "1.0.0.14",
-          "Xamarin.AndroidX.DrawerLayout": "1.1.1.9",
-          "Xamarin.AndroidX.Emoji2": "1.2.0",
-          "Xamarin.AndroidX.Emoji2.ViewsHelper": "1.2.0",
-          "Xamarin.AndroidX.Fragment": "1.5.2",
-          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1",
-          "Xamarin.AndroidX.Lifecycle.ViewModel": "2.5.1",
-          "Xamarin.AndroidX.ResourceInspection.Annotation": "1.0.1.2",
-          "Xamarin.AndroidX.SavedState": "1.2.0",
-          "Xamarin.Kotlin.StdLib": "1.7.10"
+          "Xamarin.AndroidX.Activity": "1.6.0.1",
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.AppCompat.AppCompatResources": "1.5.1.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Core.Core.Ktx": "1.9.0.1",
+          "Xamarin.AndroidX.CursorAdapter": "1.0.0.15",
+          "Xamarin.AndroidX.DrawerLayout": "1.1.1.10",
+          "Xamarin.AndroidX.Emoji2": "1.2.0.1",
+          "Xamarin.AndroidX.Emoji2.ViewsHelper": "1.2.0.1",
+          "Xamarin.AndroidX.Fragment": "1.5.3.1",
+          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1.1",
+          "Xamarin.AndroidX.Lifecycle.ViewModel": "2.5.1.1",
+          "Xamarin.AndroidX.ResourceInspection.Annotation": "1.0.1.3",
+          "Xamarin.AndroidX.SavedState": "1.2.0.1",
+          "Xamarin.Kotlin.StdLib": "1.7.20.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.dll": {
@@ -10207,14 +10971,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.AppCompat.targets": {}
         }
       },
-      "Xamarin.AndroidX.AppCompat.AppCompatResources/1.5.1": {
+      "Xamarin.AndroidX.AppCompat.AppCompatResources/1.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.9.0",
-          "Xamarin.AndroidX.VectorDrawable": "1.1.0.14",
-          "Xamarin.AndroidX.VectorDrawable.Animated": "1.1.0.14"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.VectorDrawable": "1.1.0.15",
+          "Xamarin.AndroidX.VectorDrawable.Animated": "1.1.0.15"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.AppCompatResources.dll": {
@@ -10311,6 +11075,110 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Browser.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Camera2/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Core/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Annotation.Experimental": "1.3.0.1",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.ExifInterface": "1.3.5",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.AndroidX.Lifecycle.LiveData": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10",
+          "Xamarin.Kotlin.StdLib": "1.7.22"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Lifecycle/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.View/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Annotation.Experimental": "1.3.0.1",
+          "Xamarin.AndroidX.AppCompat": "1.5.1.1",
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Camera.Lifecycle": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.View.targets": {}
         }
       },
       "Xamarin.AndroidX.CardView/1.0.0.16": {
@@ -10596,14 +11464,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.DynamicAnimation.targets": {}
         }
       },
-      "Xamarin.AndroidX.Emoji2/1.2.0": {
+      "Xamarin.AndroidX.Emoji2/1.2.0.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1",
-          "Xamarin.AndroidX.Lifecycle.Process": "2.5.1",
-          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.2"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Process": "2.5.1.1",
+          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.3"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.dll": {
@@ -10619,12 +11487,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Emoji2.targets": {}
         }
       },
-      "Xamarin.AndroidX.Emoji2.ViewsHelper/1.2.0": {
+      "Xamarin.AndroidX.Emoji2.ViewsHelper/1.2.0.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1",
-          "Xamarin.AndroidX.Emoji2": "1.2.0"
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Emoji2": "1.2.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.dll": {
@@ -10640,10 +11508,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.targets": {}
         }
       },
-      "Xamarin.AndroidX.ExifInterface/1.3.3.5": {
+      "Xamarin.AndroidX.ExifInterface/1.3.5": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.3"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.ExifInterface.dll": {
@@ -10892,12 +11760,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Lifecycle.LiveData.Core.Ktx.targets": {}
         }
       },
-      "Xamarin.AndroidX.Lifecycle.Process/2.5.1": {
+      "Xamarin.AndroidX.Lifecycle.Process/2.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1",
-          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.2"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1.1",
+          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.3"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Lifecycle.Process.dll": {
@@ -11224,10 +12092,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.RecyclerView.targets": {}
         }
       },
-      "Xamarin.AndroidX.ResourceInspection.Annotation/1.0.1.2": {
+      "Xamarin.AndroidX.ResourceInspection.Annotation/1.0.1.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.ResourceInspection.Annotation.dll": {
@@ -11329,11 +12197,11 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.SlidingPaneLayout.targets": {}
         }
       },
-      "Xamarin.AndroidX.Startup.StartupRuntime/1.1.1.2": {
+      "Xamarin.AndroidX.Startup.StartupRuntime/1.1.1.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4",
-          "Xamarin.AndroidX.Tracing.Tracing": "1.1.0.1"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Tracing.Tracing": "1.1.0.2"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Startup.StartupRuntime.dll": {
@@ -11411,12 +12279,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Transition.targets": {}
         }
       },
-      "Xamarin.AndroidX.VectorDrawable/1.1.0.14": {
+      "Xamarin.AndroidX.VectorDrawable/1.1.0.15": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.dll": {
@@ -11432,12 +12300,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.targets": {}
         }
       },
-      "Xamarin.AndroidX.VectorDrawable.Animated/1.1.0.14": {
+      "Xamarin.AndroidX.VectorDrawable.Animated/1.1.0.15": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Interpolator": "1.0.0.14",
-          "Xamarin.AndroidX.VectorDrawable": "1.1.0.14"
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Interpolator": "1.0.0.15",
+          "Xamarin.AndroidX.VectorDrawable": "1.1.0.15"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.Animated.dll": {
@@ -11573,6 +12441,19 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Android.Material.targets": {}
         }
       },
+      "Xamarin.Google.AutoValue.Annotations/1.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Google.Crypto.Tink.Android/1.7.0.1": {
         "type": "package",
         "dependencies": {
@@ -11621,11 +12502,11 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib/1.7.22": {
         "type": "package",
         "dependencies": {
           "Xamarin.Jetbrains.Annotations": "23.0.0.5",
-          "Xamarin.Kotlin.StdLib.Common": "1.7.20.1"
+          "Xamarin.Kotlin.StdLib.Common": "1.7.22"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll": {
@@ -11641,7 +12522,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib.Common/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib.Common/1.7.22": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.dll": {
@@ -11734,10 +12615,42 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
         }
       }
     },
     "net7.0-android33.0/maccatalyst-x64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Camera.Camera2": "1.2.0",
+          "Xamarin.AndroidX.Camera.Lifecycle": "1.2.0",
+          "Xamarin.AndroidX.Camera.View": "1.2.0",
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -12129,25 +13042,25 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Annotation.Experimental.targets": {}
         }
       },
-      "Xamarin.AndroidX.AppCompat/1.5.1": {
+      "Xamarin.AndroidX.AppCompat/1.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Activity": "1.5.1",
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.AppCompat.AppCompatResources": "1.5.1",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.9.0",
-          "Xamarin.AndroidX.Core.Core.Ktx": "1.9.0",
-          "Xamarin.AndroidX.CursorAdapter": "1.0.0.14",
-          "Xamarin.AndroidX.DrawerLayout": "1.1.1.9",
-          "Xamarin.AndroidX.Emoji2": "1.2.0",
-          "Xamarin.AndroidX.Emoji2.ViewsHelper": "1.2.0",
-          "Xamarin.AndroidX.Fragment": "1.5.2",
-          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1",
-          "Xamarin.AndroidX.Lifecycle.ViewModel": "2.5.1",
-          "Xamarin.AndroidX.ResourceInspection.Annotation": "1.0.1.2",
-          "Xamarin.AndroidX.SavedState": "1.2.0",
-          "Xamarin.Kotlin.StdLib": "1.7.10"
+          "Xamarin.AndroidX.Activity": "1.6.0.1",
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.AppCompat.AppCompatResources": "1.5.1.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Core.Core.Ktx": "1.9.0.1",
+          "Xamarin.AndroidX.CursorAdapter": "1.0.0.15",
+          "Xamarin.AndroidX.DrawerLayout": "1.1.1.10",
+          "Xamarin.AndroidX.Emoji2": "1.2.0.1",
+          "Xamarin.AndroidX.Emoji2.ViewsHelper": "1.2.0.1",
+          "Xamarin.AndroidX.Fragment": "1.5.3.1",
+          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1.1",
+          "Xamarin.AndroidX.Lifecycle.ViewModel": "2.5.1.1",
+          "Xamarin.AndroidX.ResourceInspection.Annotation": "1.0.1.3",
+          "Xamarin.AndroidX.SavedState": "1.2.0.1",
+          "Xamarin.Kotlin.StdLib": "1.7.20.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.dll": {
@@ -12163,14 +13076,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.AppCompat.targets": {}
         }
       },
-      "Xamarin.AndroidX.AppCompat.AppCompatResources/1.5.1": {
+      "Xamarin.AndroidX.AppCompat.AppCompatResources/1.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.9.0",
-          "Xamarin.AndroidX.VectorDrawable": "1.1.0.14",
-          "Xamarin.AndroidX.VectorDrawable.Animated": "1.1.0.14"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.VectorDrawable": "1.1.0.15",
+          "Xamarin.AndroidX.VectorDrawable.Animated": "1.1.0.15"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.AppCompatResources.dll": {
@@ -12267,6 +13180,110 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Browser.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Camera2/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Core/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Annotation.Experimental": "1.3.0.1",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.ExifInterface": "1.3.5",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.AndroidX.Lifecycle.LiveData": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10",
+          "Xamarin.Kotlin.StdLib": "1.7.22"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Lifecycle/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.View/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Annotation.Experimental": "1.3.0.1",
+          "Xamarin.AndroidX.AppCompat": "1.5.1.1",
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Camera.Lifecycle": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.View.targets": {}
         }
       },
       "Xamarin.AndroidX.CardView/1.0.0.16": {
@@ -12552,14 +13569,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.DynamicAnimation.targets": {}
         }
       },
-      "Xamarin.AndroidX.Emoji2/1.2.0": {
+      "Xamarin.AndroidX.Emoji2/1.2.0.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1",
-          "Xamarin.AndroidX.Lifecycle.Process": "2.5.1",
-          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.2"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Process": "2.5.1.1",
+          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.3"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.dll": {
@@ -12575,12 +13592,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Emoji2.targets": {}
         }
       },
-      "Xamarin.AndroidX.Emoji2.ViewsHelper/1.2.0": {
+      "Xamarin.AndroidX.Emoji2.ViewsHelper/1.2.0.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1",
-          "Xamarin.AndroidX.Emoji2": "1.2.0"
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Emoji2": "1.2.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.dll": {
@@ -12596,10 +13613,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.targets": {}
         }
       },
-      "Xamarin.AndroidX.ExifInterface/1.3.3.5": {
+      "Xamarin.AndroidX.ExifInterface/1.3.5": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.3"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.ExifInterface.dll": {
@@ -12848,12 +13865,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Lifecycle.LiveData.Core.Ktx.targets": {}
         }
       },
-      "Xamarin.AndroidX.Lifecycle.Process/2.5.1": {
+      "Xamarin.AndroidX.Lifecycle.Process/2.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1",
-          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.2"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1.1",
+          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.3"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Lifecycle.Process.dll": {
@@ -13180,10 +14197,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.RecyclerView.targets": {}
         }
       },
-      "Xamarin.AndroidX.ResourceInspection.Annotation/1.0.1.2": {
+      "Xamarin.AndroidX.ResourceInspection.Annotation/1.0.1.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.ResourceInspection.Annotation.dll": {
@@ -13285,11 +14302,11 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.SlidingPaneLayout.targets": {}
         }
       },
-      "Xamarin.AndroidX.Startup.StartupRuntime/1.1.1.2": {
+      "Xamarin.AndroidX.Startup.StartupRuntime/1.1.1.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4",
-          "Xamarin.AndroidX.Tracing.Tracing": "1.1.0.1"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Tracing.Tracing": "1.1.0.2"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Startup.StartupRuntime.dll": {
@@ -13367,12 +14384,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Transition.targets": {}
         }
       },
-      "Xamarin.AndroidX.VectorDrawable/1.1.0.14": {
+      "Xamarin.AndroidX.VectorDrawable/1.1.0.15": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.dll": {
@@ -13388,12 +14405,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.targets": {}
         }
       },
-      "Xamarin.AndroidX.VectorDrawable.Animated/1.1.0.14": {
+      "Xamarin.AndroidX.VectorDrawable.Animated/1.1.0.15": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Interpolator": "1.0.0.14",
-          "Xamarin.AndroidX.VectorDrawable": "1.1.0.14"
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Interpolator": "1.0.0.15",
+          "Xamarin.AndroidX.VectorDrawable": "1.1.0.15"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.Animated.dll": {
@@ -13529,6 +14546,19 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Android.Material.targets": {}
         }
       },
+      "Xamarin.Google.AutoValue.Annotations/1.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Google.Crypto.Tink.Android/1.7.0.1": {
         "type": "package",
         "dependencies": {
@@ -13577,11 +14607,11 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib/1.7.22": {
         "type": "package",
         "dependencies": {
           "Xamarin.Jetbrains.Annotations": "23.0.0.5",
-          "Xamarin.Kotlin.StdLib.Common": "1.7.20.1"
+          "Xamarin.Kotlin.StdLib.Common": "1.7.22"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll": {
@@ -13597,7 +14627,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib.Common/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib.Common/1.7.22": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.dll": {
@@ -13690,10 +14720,42 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
         }
       }
     },
     "net7.0-android33.0/win10-x64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Camera.Camera2": "1.2.0",
+          "Xamarin.AndroidX.Camera.Lifecycle": "1.2.0",
+          "Xamarin.AndroidX.Camera.View": "1.2.0",
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Camera.MAUI.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -14085,25 +15147,25 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Annotation.Experimental.targets": {}
         }
       },
-      "Xamarin.AndroidX.AppCompat/1.5.1": {
+      "Xamarin.AndroidX.AppCompat/1.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Activity": "1.5.1",
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.AppCompat.AppCompatResources": "1.5.1",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.9.0",
-          "Xamarin.AndroidX.Core.Core.Ktx": "1.9.0",
-          "Xamarin.AndroidX.CursorAdapter": "1.0.0.14",
-          "Xamarin.AndroidX.DrawerLayout": "1.1.1.9",
-          "Xamarin.AndroidX.Emoji2": "1.2.0",
-          "Xamarin.AndroidX.Emoji2.ViewsHelper": "1.2.0",
-          "Xamarin.AndroidX.Fragment": "1.5.2",
-          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1",
-          "Xamarin.AndroidX.Lifecycle.ViewModel": "2.5.1",
-          "Xamarin.AndroidX.ResourceInspection.Annotation": "1.0.1.2",
-          "Xamarin.AndroidX.SavedState": "1.2.0",
-          "Xamarin.Kotlin.StdLib": "1.7.10"
+          "Xamarin.AndroidX.Activity": "1.6.0.1",
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.AppCompat.AppCompatResources": "1.5.1.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Core.Core.Ktx": "1.9.0.1",
+          "Xamarin.AndroidX.CursorAdapter": "1.0.0.15",
+          "Xamarin.AndroidX.DrawerLayout": "1.1.1.10",
+          "Xamarin.AndroidX.Emoji2": "1.2.0.1",
+          "Xamarin.AndroidX.Emoji2.ViewsHelper": "1.2.0.1",
+          "Xamarin.AndroidX.Fragment": "1.5.3.1",
+          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1.1",
+          "Xamarin.AndroidX.Lifecycle.ViewModel": "2.5.1.1",
+          "Xamarin.AndroidX.ResourceInspection.Annotation": "1.0.1.3",
+          "Xamarin.AndroidX.SavedState": "1.2.0.1",
+          "Xamarin.Kotlin.StdLib": "1.7.20.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.dll": {
@@ -14119,14 +15181,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.AppCompat.targets": {}
         }
       },
-      "Xamarin.AndroidX.AppCompat.AppCompatResources/1.5.1": {
+      "Xamarin.AndroidX.AppCompat.AppCompatResources/1.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.9.0",
-          "Xamarin.AndroidX.VectorDrawable": "1.1.0.14",
-          "Xamarin.AndroidX.VectorDrawable.Animated": "1.1.0.14"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.VectorDrawable": "1.1.0.15",
+          "Xamarin.AndroidX.VectorDrawable.Animated": "1.1.0.15"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.AppCompatResources.dll": {
@@ -14223,6 +15285,110 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Browser.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Camera2/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Core/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Annotation.Experimental": "1.3.0.1",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.ExifInterface": "1.3.5",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.AndroidX.Lifecycle.LiveData": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10",
+          "Xamarin.Kotlin.StdLib": "1.7.22"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.Lifecycle/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Camera.View/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Annotation.Experimental": "1.3.0.1",
+          "Xamarin.AndroidX.AppCompat": "1.5.1.1",
+          "Xamarin.AndroidX.Camera.Core": "1.2.0",
+          "Xamarin.AndroidX.Camera.Lifecycle": "1.2.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.10",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Common": "2.5.1.1",
+          "Xamarin.Google.AutoValue.Annotations": "1.10.1",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.10"
+        },
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.View.targets": {}
         }
       },
       "Xamarin.AndroidX.CardView/1.0.0.16": {
@@ -14508,14 +15674,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.DynamicAnimation.targets": {}
         }
       },
-      "Xamarin.AndroidX.Emoji2/1.2.0": {
+      "Xamarin.AndroidX.Emoji2/1.2.0.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1",
-          "Xamarin.AndroidX.Lifecycle.Process": "2.5.1",
-          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.2"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Lifecycle.Process": "2.5.1.1",
+          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.3"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.dll": {
@@ -14531,12 +15697,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Emoji2.targets": {}
         }
       },
-      "Xamarin.AndroidX.Emoji2.ViewsHelper/1.2.0": {
+      "Xamarin.AndroidX.Emoji2.ViewsHelper/1.2.0.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1",
-          "Xamarin.AndroidX.Emoji2": "1.2.0"
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1",
+          "Xamarin.AndroidX.Emoji2": "1.2.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.dll": {
@@ -14552,10 +15718,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.targets": {}
         }
       },
-      "Xamarin.AndroidX.ExifInterface/1.3.3.5": {
+      "Xamarin.AndroidX.ExifInterface/1.3.5": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.3"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.ExifInterface.dll": {
@@ -14804,12 +15970,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Lifecycle.LiveData.Core.Ktx.targets": {}
         }
       },
-      "Xamarin.AndroidX.Lifecycle.Process/2.5.1": {
+      "Xamarin.AndroidX.Lifecycle.Process/2.5.1.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.4.0",
-          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1",
-          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.2"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Lifecycle.Runtime": "2.5.1.1",
+          "Xamarin.AndroidX.Startup.StartupRuntime": "1.1.1.3"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Lifecycle.Process.dll": {
@@ -15136,10 +16302,10 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.RecyclerView.targets": {}
         }
       },
-      "Xamarin.AndroidX.ResourceInspection.Annotation/1.0.1.2": {
+      "Xamarin.AndroidX.ResourceInspection.Annotation/1.0.1.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.ResourceInspection.Annotation.dll": {
@@ -15241,11 +16407,11 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.SlidingPaneLayout.targets": {}
         }
       },
-      "Xamarin.AndroidX.Startup.StartupRuntime/1.1.1.2": {
+      "Xamarin.AndroidX.Startup.StartupRuntime/1.1.1.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4",
-          "Xamarin.AndroidX.Tracing.Tracing": "1.1.0.1"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Tracing.Tracing": "1.1.0.2"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.Startup.StartupRuntime.dll": {
@@ -15323,12 +16489,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Transition.targets": {}
         }
       },
-      "Xamarin.AndroidX.VectorDrawable/1.1.0.14": {
+      "Xamarin.AndroidX.VectorDrawable/1.1.0.15": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.3.0.4",
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Core": "1.8.0.1"
+          "Xamarin.AndroidX.Annotation": "1.5.0.1",
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Core": "1.9.0.1"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.dll": {
@@ -15344,12 +16510,12 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.targets": {}
         }
       },
-      "Xamarin.AndroidX.VectorDrawable.Animated/1.1.0.14": {
+      "Xamarin.AndroidX.VectorDrawable.Animated/1.1.0.15": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Collection": "1.2.0.4",
-          "Xamarin.AndroidX.Interpolator": "1.0.0.14",
-          "Xamarin.AndroidX.VectorDrawable": "1.1.0.14"
+          "Xamarin.AndroidX.Collection": "1.2.0.5",
+          "Xamarin.AndroidX.Interpolator": "1.0.0.15",
+          "Xamarin.AndroidX.VectorDrawable": "1.1.0.15"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.Animated.dll": {
@@ -15485,6 +16651,19 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Google.Android.Material.targets": {}
         }
       },
+      "Xamarin.Google.AutoValue.Annotations/1.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Google.Crypto.Tink.Android/1.7.0.1": {
         "type": "package",
         "dependencies": {
@@ -15533,11 +16712,11 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Jetbrains.Annotations.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib/1.7.22": {
         "type": "package",
         "dependencies": {
           "Xamarin.Jetbrains.Annotations": "23.0.0.5",
-          "Xamarin.Kotlin.StdLib.Common": "1.7.20.1"
+          "Xamarin.Kotlin.StdLib.Common": "1.7.22"
         },
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll": {
@@ -15553,7 +16732,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.targets": {}
         }
       },
-      "Xamarin.Kotlin.StdLib.Common/1.7.20.1": {
+      "Xamarin.Kotlin.StdLib.Common/1.7.22": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.dll": {
@@ -15647,9 +16826,34 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        }
       }
     },
     "net7.0-ios16.1": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15860,11 +17064,36 @@
         "runtime": {
           "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-ios16.1/android-arm": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16075,11 +17304,36 @@
         "runtime": {
           "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-ios16.1/android-arm64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16290,11 +17544,36 @@
         "runtime": {
           "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-ios16.1/android-x64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16505,11 +17784,36 @@
         "runtime": {
           "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-ios16.1/android-x86": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16720,11 +18024,36 @@
         "runtime": {
           "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16935,11 +18264,36 @@
         "runtime": {
           "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-ios16.1/maccatalyst-x64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17150,11 +18504,36 @@
         "runtime": {
           "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-ios16.1/win10-x64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17365,11 +18744,36 @@
         "runtime": {
           "lib/net7.0-ios13.6/Syncfusion.Maui.Gauges.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-maccatalyst16.1": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17580,11 +18984,36 @@
         "runtime": {
           "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17795,11 +19224,36 @@
         "runtime": {
           "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-maccatalyst16.1/android-arm64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18010,11 +19464,36 @@
         "runtime": {
           "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18225,11 +19704,36 @@
         "runtime": {
           "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-maccatalyst16.1/android-x86": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18440,11 +19944,36 @@
         "runtime": {
           "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18655,11 +20184,36 @@
         "runtime": {
           "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-maccatalyst16.1/maccatalyst-x64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18870,11 +20424,36 @@
         "runtime": {
           "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Gauges.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19087,9 +20666,34 @@
             "related": ".xml"
           }
         }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19440,9 +21044,34 @@
             "related": ".deps.json;.xml"
           }
         }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19763,11 +21392,36 @@
         "runtime": {
           "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
             "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-windows10.0.19041/android-arm64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20088,11 +21742,36 @@
         "runtime": {
           "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
             "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-windows10.0.19041/android-x64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20413,11 +22092,36 @@
         "runtime": {
           "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
             "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-windows10.0.19041/android-x86": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20738,11 +22442,36 @@
         "runtime": {
           "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
             "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-windows10.0.19041/iossimulator-x64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -21063,11 +22792,36 @@
         "runtime": {
           "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
             "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
           }
         }
       }
     },
     "net7.0-windows10.0.19041/maccatalyst-x64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -21390,9 +23144,34 @@
             "related": ".deps.json;.xml"
           }
         }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/win10-x64": {
+      "Camera.MAUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -21721,10 +23500,43 @@
             "related": ".deps.json;.xml"
           }
         }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        }
       }
     }
   },
   "libraries": {
+    "Camera.MAUI/1.2.1": {
+      "sha512": "8jlJuMGCBB2V2DyY0TB1diyFkx/+gTGulIKs0fzqNjRlGncGVNZNY8Kx7HXbThF+Z5tbazZWiJFJDseHojMqjQ==",
+      "type": "package",
+      "path": "camera.maui/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Readme.md",
+        "camera.maui.1.2.1.nupkg.sha512",
+        "camera.maui.nuspec",
+        "camera.maui.png",
+        "lib/net7.0-android33.0/Camera.MAUI.aar",
+        "lib/net7.0-android33.0/Camera.MAUI.dll",
+        "lib/net7.0-android33.0/Camera.MAUI.xml",
+        "lib/net7.0-ios16.1/Camera.MAUI.dll",
+        "lib/net7.0-maccatalyst16.1/Camera.MAUI.dll",
+        "lib/net7.0-windows10.0.19041/Camera.MAUI.dll",
+        "lib/net7.0/Camera.MAUI.dll"
+      ]
+    },
     "GoogleGson/2.9.1.1": {
       "sha512": "OreKEL2Yx2u8YhRqv0e+j45cEzoe+fyMEzGN+M/vfBDPsIXQcA6lGdHXO07bTrGn6NNwxY67dyIfbyXx3A7cDA==",
       "type": "package",
@@ -23234,10 +25046,10 @@
         "xamarin.androidx.annotation.experimental.nuspec"
       ]
     },
-    "Xamarin.AndroidX.AppCompat/1.5.1": {
-      "sha512": "XzRGd+pLFjMDgdeYVRGzMEEqz3ajAAyDVlUY3VIpTdqxdPrtd1DfS+mjH2EM+LPal9n7q1wYvki5NRcsSFx+MA==",
+    "Xamarin.AndroidX.AppCompat/1.5.1.1": {
+      "sha512": "P2HtXKLC+5rgBiACBijPQzYCshkPl07yTo+RarSpLnYSzHVlFVwK1oZtAjaNpJTna7mtH6vhjFZP4aIqHk3wdw==",
       "type": "package",
-      "path": "xamarin.androidx.appcompat/1.5.1",
+      "path": "xamarin.androidx.appcompat/1.5.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -23256,14 +25068,14 @@
         "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.pdb",
         "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.xml",
         "proguard/proguard.txt",
-        "xamarin.androidx.appcompat.1.5.1.nupkg.sha512",
+        "xamarin.androidx.appcompat.1.5.1.1.nupkg.sha512",
         "xamarin.androidx.appcompat.nuspec"
       ]
     },
-    "Xamarin.AndroidX.AppCompat.AppCompatResources/1.5.1": {
-      "sha512": "qQ+TvlOjziPmyudq6NoDvQNvwA6LzRqnYS4eEnfTUCY6v+sNn7toJzqee9M58l6r6KVYP3nLKzXzNYkpHH2fbg==",
+    "Xamarin.AndroidX.AppCompat.AppCompatResources/1.5.1.1": {
+      "sha512": "8O8KXd6OypIocjNxnvkE0z54uIcb1CT0+cbnLkOQlQxsHUWJe3cqjbpUuPhQzSUm3o7JBx2iv/52rP1Tjtra2g==",
       "type": "package",
-      "path": "xamarin.androidx.appcompat.appcompatresources/1.5.1",
+      "path": "xamarin.androidx.appcompat.appcompatresources/1.5.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -23281,7 +25093,7 @@
         "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.AppCompatResources.dll",
         "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.AppCompatResources.pdb",
         "lib/net6.0-android31.0/Xamarin.AndroidX.AppCompat.AppCompatResources.xml",
-        "xamarin.androidx.appcompat.appcompatresources.1.5.1.nupkg.sha512",
+        "xamarin.androidx.appcompat.appcompatresources.1.5.1.1.nupkg.sha512",
         "xamarin.androidx.appcompat.appcompatresources.nuspec"
       ]
     },
@@ -23383,6 +25195,107 @@
         "lib/net6.0-android31.0/Xamarin.AndroidX.Browser.xml",
         "xamarin.androidx.browser.1.4.0.3.nupkg.sha512",
         "xamarin.androidx.browser.nuspec"
+      ]
+    },
+    "Xamarin.AndroidX.Camera.Camera2/1.2.0": {
+      "sha512": "Y4cKhKjPzO88vsFP21wsH7OtQgehIyE0fYc+1t6oRvkyniqs2pCOF+j6LaWKjr1dxpM57mCpWpuBkxhxDdIMrg==",
+      "type": "package",
+      "path": "xamarin.androidx.camera.camera2/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "THIRD-PARTY-NOTICES.txt",
+        "aar/androidx.camera.camera-camera2.aar",
+        "build/monoandroid12.0/Xamarin.AndroidX.Camera.Camera2.targets",
+        "build/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.targets",
+        "buildTransitive/monoandroid12.0/Xamarin.AndroidX.Camera.Camera2.targets",
+        "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.targets",
+        "icon.png",
+        "lib/monoandroid12.0/Xamarin.AndroidX.Camera.Camera2.dll",
+        "lib/monoandroid12.0/Xamarin.AndroidX.Camera.Camera2.pdb",
+        "lib/monoandroid12.0/Xamarin.AndroidX.Camera.Camera2.xml",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.dll",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.pdb",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Camera2.xml",
+        "proguard/proguard.txt",
+        "xamarin.androidx.camera.camera2.1.2.0.nupkg.sha512",
+        "xamarin.androidx.camera.camera2.nuspec"
+      ]
+    },
+    "Xamarin.AndroidX.Camera.Core/1.2.0": {
+      "sha512": "GqXwrDVmBL/oztwxJtp2Xplr/LmdwKdyILRYnHsVnHvo+8ICHFKZhJfvZKd76WGg1iXI1u9hlZpNJ3P/7v+0uA==",
+      "type": "package",
+      "path": "xamarin.androidx.camera.core/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "THIRD-PARTY-NOTICES.txt",
+        "aar/androidx.camera.camera-core.aar",
+        "build/monoandroid12.0/Xamarin.AndroidX.Camera.Core.targets",
+        "build/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.targets",
+        "buildTransitive/monoandroid12.0/Xamarin.AndroidX.Camera.Core.targets",
+        "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.targets",
+        "icon.png",
+        "lib/monoandroid12.0/Xamarin.AndroidX.Camera.Core.dll",
+        "lib/monoandroid12.0/Xamarin.AndroidX.Camera.Core.pdb",
+        "lib/monoandroid12.0/Xamarin.AndroidX.Camera.Core.xml",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.dll",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.pdb",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Core.xml",
+        "xamarin.androidx.camera.core.1.2.0.nupkg.sha512",
+        "xamarin.androidx.camera.core.nuspec"
+      ]
+    },
+    "Xamarin.AndroidX.Camera.Lifecycle/1.2.0": {
+      "sha512": "fkfHYQliYpfv7nKzyaJSVCb9Thh/CHM9h7U+8xkSXU47/W6oyumFao4g12cTrGhYfN7CvDqCXOhZf9mgGloBQA==",
+      "type": "package",
+      "path": "xamarin.androidx.camera.lifecycle/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "THIRD-PARTY-NOTICES.txt",
+        "aar/androidx.camera.camera-lifecycle.aar",
+        "build/monoandroid12.0/Xamarin.AndroidX.Camera.Lifecycle.targets",
+        "build/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.targets",
+        "buildTransitive/monoandroid12.0/Xamarin.AndroidX.Camera.Lifecycle.targets",
+        "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.targets",
+        "icon.png",
+        "lib/monoandroid12.0/Xamarin.AndroidX.Camera.Lifecycle.dll",
+        "lib/monoandroid12.0/Xamarin.AndroidX.Camera.Lifecycle.pdb",
+        "lib/monoandroid12.0/Xamarin.AndroidX.Camera.Lifecycle.xml",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.dll",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.pdb",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.Lifecycle.xml",
+        "xamarin.androidx.camera.lifecycle.1.2.0.nupkg.sha512",
+        "xamarin.androidx.camera.lifecycle.nuspec"
+      ]
+    },
+    "Xamarin.AndroidX.Camera.View/1.2.0": {
+      "sha512": "Ijfn7Lilm4/bM/BEOb2qv7lx0fN7isfMEGMlbD/j1WLEVTOxXfD1Qf9TbIZtB8bETJK/8YbDiSDWhOkp69KsAQ==",
+      "type": "package",
+      "path": "xamarin.androidx.camera.view/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "THIRD-PARTY-NOTICES.txt",
+        "aar/androidx.camera.camera-view.aar",
+        "build/monoandroid12.0/Xamarin.AndroidX.Camera.View.targets",
+        "build/net6.0-android31.0/Xamarin.AndroidX.Camera.View.targets",
+        "buildTransitive/monoandroid12.0/Xamarin.AndroidX.Camera.View.targets",
+        "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Camera.View.targets",
+        "icon.png",
+        "lib/monoandroid12.0/Xamarin.AndroidX.Camera.View.dll",
+        "lib/monoandroid12.0/Xamarin.AndroidX.Camera.View.pdb",
+        "lib/monoandroid12.0/Xamarin.AndroidX.Camera.View.xml",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.dll",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.pdb",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Camera.View.xml",
+        "xamarin.androidx.camera.view.1.2.0.nupkg.sha512",
+        "xamarin.androidx.camera.view.nuspec"
       ]
     },
     "Xamarin.AndroidX.CardView/1.0.0.16": {
@@ -23737,10 +25650,10 @@
         "xamarin.androidx.dynamicanimation.nuspec"
       ]
     },
-    "Xamarin.AndroidX.Emoji2/1.2.0": {
-      "sha512": "7lJxKgKoaBplWZqgiApCmGWdlA95PBKRL1i/NBaggDJ3PHaTfy0RpAk3yUeEu9iCeTK35g4JvM9miy0Xog4dJw==",
+    "Xamarin.AndroidX.Emoji2/1.2.0.1": {
+      "sha512": "kSBSg2wuK/NLljoAqE1QRzrrSVP0sv0YWzwAIg93AUIEd4kLDHq1uf8nfKsn4frL7qLKVDTjgyJyU01rvQYPow==",
       "type": "package",
-      "path": "xamarin.androidx.emoji2/1.2.0",
+      "path": "xamarin.androidx.emoji2/1.2.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -23758,14 +25671,14 @@
         "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.dll",
         "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.pdb",
         "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.xml",
-        "xamarin.androidx.emoji2.1.2.0.nupkg.sha512",
+        "xamarin.androidx.emoji2.1.2.0.1.nupkg.sha512",
         "xamarin.androidx.emoji2.nuspec"
       ]
     },
-    "Xamarin.AndroidX.Emoji2.ViewsHelper/1.2.0": {
-      "sha512": "wjBOrzCj5eOmsvSNdVZ/7ZgVp3puGR7wvsfjczUR3TKr1l1hIs0awSkl4lbAH5YzQ8p7ocYXGldhTLW2qQOzGg==",
+    "Xamarin.AndroidX.Emoji2.ViewsHelper/1.2.0.1": {
+      "sha512": "iTIJKqaKUZ08pSi/i3sWRnPVvHQ/1jPVax2vehflEKkPEd8cppH8xzTSAoPgmavNptsMwQJHbdzWX3Trt3B0qQ==",
       "type": "package",
-      "path": "xamarin.androidx.emoji2.viewshelper/1.2.0",
+      "path": "xamarin.androidx.emoji2.viewshelper/1.2.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -23783,30 +25696,32 @@
         "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.dll",
         "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.pdb",
         "lib/net6.0-android31.0/Xamarin.AndroidX.Emoji2.ViewsHelper.xml",
-        "xamarin.androidx.emoji2.viewshelper.1.2.0.nupkg.sha512",
+        "xamarin.androidx.emoji2.viewshelper.1.2.0.1.nupkg.sha512",
         "xamarin.androidx.emoji2.viewshelper.nuspec"
       ]
     },
-    "Xamarin.AndroidX.ExifInterface/1.3.3.5": {
-      "sha512": "Fd5DFNzJ145HBkywhEcumz1nLP+c+tpcPa1Ad2sn3uJV/sGpfvkWD/itKv/vSFL9bSc2e/KV5vp9vruLfaAbEQ==",
+    "Xamarin.AndroidX.ExifInterface/1.3.5": {
+      "sha512": "33IbLBSmyrTOx7gfcjGEPSRHinfNfpdOlAmw65dRXIOXvOJLaRPTswmIlnRRbioVRgkPY5iSXMJ3C1xqdvD/nQ==",
       "type": "package",
-      "path": "xamarin.androidx.exifinterface/1.3.3.5",
+      "path": "xamarin.androidx.exifinterface/1.3.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
+        "THIRD-PARTY-NOTICES.txt",
         "aar/androidx.exifinterface.exifinterface.aar",
         "build/monoandroid12.0/Xamarin.AndroidX.ExifInterface.targets",
         "build/net6.0-android31.0/Xamarin.AndroidX.ExifInterface.targets",
         "buildTransitive/monoandroid12.0/Xamarin.AndroidX.ExifInterface.targets",
         "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.ExifInterface.targets",
+        "icon.png",
         "lib/monoandroid12.0/Xamarin.AndroidX.ExifInterface.dll",
         "lib/monoandroid12.0/Xamarin.AndroidX.ExifInterface.pdb",
         "lib/monoandroid12.0/Xamarin.AndroidX.ExifInterface.xml",
         "lib/net6.0-android31.0/Xamarin.AndroidX.ExifInterface.dll",
         "lib/net6.0-android31.0/Xamarin.AndroidX.ExifInterface.pdb",
         "lib/net6.0-android31.0/Xamarin.AndroidX.ExifInterface.xml",
-        "xamarin.androidx.exifinterface.1.3.3.5.nupkg.sha512",
+        "xamarin.androidx.exifinterface.1.3.5.nupkg.sha512",
         "xamarin.androidx.exifinterface.nuspec"
       ]
     },
@@ -24061,10 +25976,10 @@
         "xamarin.androidx.lifecycle.livedata.core.ktx.nuspec"
       ]
     },
-    "Xamarin.AndroidX.Lifecycle.Process/2.5.1": {
-      "sha512": "+TgKurFGiHMxs7UeAZA7HUKMlKa89IlQ/Ycxz6fdAofZ1icpumpuXh7/v1mue0krqopZBF4ETCoytDjWnBQu+Q==",
+    "Xamarin.AndroidX.Lifecycle.Process/2.5.1.1": {
+      "sha512": "nWRYhsR5FTctm+dMpF8vzSjTFux225nUXtwo+s8ha4hN5tlICNOTqSJB0Ruk3AUAdjM1MOuAr555LSEpQeGlSQ==",
       "type": "package",
-      "path": "xamarin.androidx.lifecycle.process/2.5.1",
+      "path": "xamarin.androidx.lifecycle.process/2.5.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -24083,7 +25998,7 @@
         "lib/net6.0-android31.0/Xamarin.AndroidX.Lifecycle.Process.pdb",
         "lib/net6.0-android31.0/Xamarin.AndroidX.Lifecycle.Process.xml",
         "proguard/proguard.txt",
-        "xamarin.androidx.lifecycle.process.2.5.1.nupkg.sha512",
+        "xamarin.androidx.lifecycle.process.2.5.1.1.nupkg.sha512",
         "xamarin.androidx.lifecycle.process.nuspec"
       ]
     },
@@ -24444,10 +26359,10 @@
         "xamarin.androidx.recyclerview.nuspec"
       ]
     },
-    "Xamarin.AndroidX.ResourceInspection.Annotation/1.0.1.2": {
-      "sha512": "s+eh3sOtYpKzCskRjebTQOPHJrQkvhC90nfdyczxgoYZ7mYkFJ0y+J0F/KiYMaFYTHttAUf6wxsEdclzpMG7jg==",
+    "Xamarin.AndroidX.ResourceInspection.Annotation/1.0.1.3": {
+      "sha512": "ssPvMwQrugWWpr/7e6KYUrAABSLCxtn0p0oSNNRVfoFAQtwr+lnbGwgPYSVYqvjQwojQN6oIADXW1BH9yTmzkQ==",
       "type": "package",
-      "path": "xamarin.androidx.resourceinspection.annotation/1.0.1.2",
+      "path": "xamarin.androidx.resourceinspection.annotation/1.0.1.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -24465,7 +26380,7 @@
         "lib/net6.0-android31.0/Xamarin.AndroidX.ResourceInspection.Annotation.dll",
         "lib/net6.0-android31.0/Xamarin.AndroidX.ResourceInspection.Annotation.pdb",
         "lib/net6.0-android31.0/Xamarin.AndroidX.ResourceInspection.Annotation.xml",
-        "xamarin.androidx.resourceinspection.annotation.1.0.1.2.nupkg.sha512",
+        "xamarin.androidx.resourceinspection.annotation.1.0.1.3.nupkg.sha512",
         "xamarin.androidx.resourceinspection.annotation.nuspec"
       ]
     },
@@ -24568,10 +26483,10 @@
         "xamarin.androidx.slidingpanelayout.nuspec"
       ]
     },
-    "Xamarin.AndroidX.Startup.StartupRuntime/1.1.1.2": {
-      "sha512": "wgwchPNU/cnyN2tQtrZYA8h6ZkoEuopxgI1698EtFHXq4mJKhG//LTZcslUlOgmlm+8s8kwPiSUiFxBiipcC5A==",
+    "Xamarin.AndroidX.Startup.StartupRuntime/1.1.1.3": {
+      "sha512": "QrsqAq4umUznBl/x/Ifo0dWU+wDvscUFJVEhOlEaoXVF3XIculxxKyGBlswTZ39rw7Yqw62+LhNS68Ite8GGHw==",
       "type": "package",
-      "path": "xamarin.androidx.startup.startupruntime/1.1.1.2",
+      "path": "xamarin.androidx.startup.startupruntime/1.1.1.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -24590,7 +26505,7 @@
         "lib/net6.0-android31.0/Xamarin.AndroidX.Startup.StartupRuntime.pdb",
         "lib/net6.0-android31.0/Xamarin.AndroidX.Startup.StartupRuntime.xml",
         "proguard/proguard.txt",
-        "xamarin.androidx.startup.startupruntime.1.1.1.2.nupkg.sha512",
+        "xamarin.androidx.startup.startupruntime.1.1.1.3.nupkg.sha512",
         "xamarin.androidx.startup.startupruntime.nuspec"
       ]
     },
@@ -24670,10 +26585,10 @@
         "xamarin.androidx.transition.nuspec"
       ]
     },
-    "Xamarin.AndroidX.VectorDrawable/1.1.0.14": {
-      "sha512": "b0X+bHeYDlEh4+/j4eNhPIDWaS6MH+dhduP2NfndIubX2Px89dhGnGWCzVU4kUQTZZ+N+zSGOMma+ht3gTGy7w==",
+    "Xamarin.AndroidX.VectorDrawable/1.1.0.15": {
+      "sha512": "S0zdiEz3C1EA+J69Z0e8e7p+oslrVUOGx54WDZGeeVx9G5ZYnZpW0z9Ca8NNdj/CgM9r9Ap0Ovxc0PojRARfaA==",
       "type": "package",
-      "path": "xamarin.androidx.vectordrawable/1.1.0.14",
+      "path": "xamarin.androidx.vectordrawable/1.1.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -24691,14 +26606,14 @@
         "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.dll",
         "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.pdb",
         "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.xml",
-        "xamarin.androidx.vectordrawable.1.1.0.14.nupkg.sha512",
+        "xamarin.androidx.vectordrawable.1.1.0.15.nupkg.sha512",
         "xamarin.androidx.vectordrawable.nuspec"
       ]
     },
-    "Xamarin.AndroidX.VectorDrawable.Animated/1.1.0.14": {
-      "sha512": "H5lw8V9H1nEOfROs/36EvE5JPscshDmCjnRQZv2+vqlMP+S6PuqJdecRaR6q4BU0vR3h3PjOZrKB4B0aPtZ2aA==",
+    "Xamarin.AndroidX.VectorDrawable.Animated/1.1.0.15": {
+      "sha512": "rLsaukfodOmdZvW6ehYxJ/eA6205P8F2XYWwpwjPhT6mR7V9JFBlQpqzaz2PDVtydJptTovz6H0Y23mJTUcjLw==",
       "type": "package",
-      "path": "xamarin.androidx.vectordrawable.animated/1.1.0.14",
+      "path": "xamarin.androidx.vectordrawable.animated/1.1.0.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -24717,7 +26632,7 @@
         "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.Animated.pdb",
         "lib/net6.0-android31.0/Xamarin.AndroidX.VectorDrawable.Animated.xml",
         "proguard/proguard.txt",
-        "xamarin.androidx.vectordrawable.animated.1.1.0.14.nupkg.sha512",
+        "xamarin.androidx.vectordrawable.animated.1.1.0.15.nupkg.sha512",
         "xamarin.androidx.vectordrawable.animated.nuspec"
       ]
     },
@@ -24849,6 +26764,24 @@
         "xamarin.google.android.material.nuspec"
       ]
     },
+    "Xamarin.Google.AutoValue.Annotations/1.10.1": {
+      "sha512": "Zt0h9rgji9KnKFoTUBLyLVw2TWQBn6Tr2VmALh4iSCBXaKQeJthNaUpsW1W1ijpBciy4udAVq9vQSPcwcsqDMQ==",
+      "type": "package",
+      "path": "xamarin.google.autovalue.annotations/1.10.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.md",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/monoandroid12.0/Xamarin.Google.AutoValue.Annotations.dll",
+        "lib/monoandroid12.0/Xamarin.Google.AutoValue.Annotations.xml",
+        "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.aar",
+        "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.dll",
+        "lib/net6.0-android31.0/Xamarin.Google.AutoValue.Annotations.xml",
+        "xamarin.google.autovalue.annotations.1.10.1.nupkg.sha512",
+        "xamarin.google.autovalue.annotations.nuspec"
+      ]
+    },
     "Xamarin.Google.Crypto.Tink.Android/1.7.0.1": {
       "sha512": "Qaf1949Xy/GSOlDZojifaEp/gqJUteWmP8tPg9n925CBOdmxxtGVhy9V+z0tTxA5KP3Gr2Ak5VqcBKCYbozLtw==",
       "type": "package",
@@ -24911,10 +26844,10 @@
         "xamarin.jetbrains.annotations.nuspec"
       ]
     },
-    "Xamarin.Kotlin.StdLib/1.7.20.1": {
-      "sha512": "rXf7f31keX62tzFrfaZ5qC0qLiGRqk3qFBpocL87U8+DwJONOQ8/gc6MpmDQnrcJbAgJn7tudqKubPFVIJhaHw==",
+    "Xamarin.Kotlin.StdLib/1.7.22": {
+      "sha512": "fbVU+Smam2dv62CNeCt3wwjRNG1wbyvUELoEZgw7Ux0ewV6R6TYtmhg0Hwb7a5dYyCdHv/996rY6/kDB/BjSIw==",
       "type": "package",
-      "path": "xamarin.kotlin.stdlib/1.7.20.1",
+      "path": "xamarin.kotlin.stdlib/1.7.22",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -24924,19 +26857,19 @@
         "build/net6.0-android31.0/Xamarin.Kotlin.StdLib.targets",
         "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.targets",
         "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.targets",
-        "jar/org.jetbrains.kotlin.kotlin-stdlib-1.7.20.jar",
+        "jar/org.jetbrains.kotlin.kotlin-stdlib-1.7.22.jar",
         "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.dll",
         "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.xml",
         "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.dll",
         "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.xml",
-        "xamarin.kotlin.stdlib.1.7.20.1.nupkg.sha512",
+        "xamarin.kotlin.stdlib.1.7.22.nupkg.sha512",
         "xamarin.kotlin.stdlib.nuspec"
       ]
     },
-    "Xamarin.Kotlin.StdLib.Common/1.7.20.1": {
-      "sha512": "4OAlyfiGtm1JAQAwdSZq+Eqmm8Bb9LDXbqtknNl11i4f1mZ35OtKIHiCuxy3h5YnAYna4K1iqz3mCe+L/lBuRw==",
+    "Xamarin.Kotlin.StdLib.Common/1.7.22": {
+      "sha512": "0P0ESfO8j8BEx/C7oYC6fxF5Chalx8tf7IBKGFfzvIny9pS9/Y61vbTtD81BRYYerQipjM3JvpGoQKaL02qO3g==",
       "type": "package",
-      "path": "xamarin.kotlin.stdlib.common/1.7.20.1",
+      "path": "xamarin.kotlin.stdlib.common/1.7.22",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -24946,12 +26879,12 @@
         "build/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.targets",
         "buildTransitive/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.targets",
         "buildTransitive/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.targets",
-        "jar/org.jetbrains.kotlin.kotlin-stdlib-common-1.7.20.jar",
+        "jar/org.jetbrains.kotlin.kotlin-stdlib-common-1.7.22.jar",
         "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.dll",
         "lib/monoandroid12.0/Xamarin.Kotlin.StdLib.Common.xml",
         "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.dll",
         "lib/net6.0-android31.0/Xamarin.Kotlin.StdLib.Common.xml",
-        "xamarin.kotlin.stdlib.common.1.7.20.1.nupkg.sha512",
+        "xamarin.kotlin.stdlib.common.1.7.22.nupkg.sha512",
         "xamarin.kotlin.stdlib.common.nuspec"
       ]
     },
@@ -25042,10 +26975,94 @@
         "xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
+    },
+    "ZXing.Net/0.16.9": {
+      "sha512": "7WaVMHklpT3Ye2ragqRIwlFRsb6kOk63BOGADV0fan3ulVfGLUYkDi5yNUsZS/7FVNkWbtHAlDLmu4WnHGfqvQ==",
+      "type": "package",
+      "path": "zxing.net/0.16.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/native/zxing.XML",
+        "lib/native/zxing.pri",
+        "lib/native/zxing.winmd",
+        "lib/net20-cf/zxing.ce2.0.dll",
+        "lib/net20-cf/zxing.ce2.0.xml",
+        "lib/net20/zxing.XML",
+        "lib/net20/zxing.dll",
+        "lib/net35-cf/zxing.ce3.5.dll",
+        "lib/net35-cf/zxing.ce3.5.xml",
+        "lib/net35/zxing.XML",
+        "lib/net35/zxing.dll",
+        "lib/net40/zxing.XML",
+        "lib/net40/zxing.dll",
+        "lib/net40/zxing.presentation.XML",
+        "lib/net40/zxing.presentation.dll",
+        "lib/net45/zxing.XML",
+        "lib/net45/zxing.dll",
+        "lib/net45/zxing.presentation.XML",
+        "lib/net45/zxing.presentation.dll",
+        "lib/net461/zxing.XML",
+        "lib/net461/zxing.dll",
+        "lib/net461/zxing.presentation.XML",
+        "lib/net461/zxing.presentation.dll",
+        "lib/net47/zxing.XML",
+        "lib/net47/zxing.dll",
+        "lib/net47/zxing.presentation.XML",
+        "lib/net47/zxing.presentation.dll",
+        "lib/net48/zxing.XML",
+        "lib/net48/zxing.dll",
+        "lib/net48/zxing.presentation.XML",
+        "lib/net48/zxing.presentation.dll",
+        "lib/net5.0/zxing.XML",
+        "lib/net5.0/zxing.dll",
+        "lib/net6.0/zxing.XML",
+        "lib/net6.0/zxing.dll",
+        "lib/net7.0/zxing.XML",
+        "lib/net7.0/zxing.dll",
+        "lib/netcoreapp3.0/zxing.dll",
+        "lib/netcoreapp3.0/zxing.xml",
+        "lib/netcoreapp3.1/zxing.dll",
+        "lib/netcoreapp3.1/zxing.xml",
+        "lib/netstandard1.0/zxing.dll",
+        "lib/netstandard1.0/zxing.xml",
+        "lib/netstandard1.1/zxing.dll",
+        "lib/netstandard1.1/zxing.xml",
+        "lib/netstandard1.3/zxing.dll",
+        "lib/netstandard1.3/zxing.xml",
+        "lib/netstandard2.0/zxing.dll",
+        "lib/netstandard2.0/zxing.xml",
+        "lib/netstandard2.1/zxing.dll",
+        "lib/netstandard2.1/zxing.xml",
+        "lib/portable-win+net40+sl4+sl5+wp7+wp71+wp8/zxing.portable.XML",
+        "lib/portable-win+net40+sl4+sl5+wp7+wp71+wp8/zxing.portable.dll",
+        "lib/sl3-wp/zxing.wp7.0.XML",
+        "lib/sl3-wp/zxing.wp7.0.dll",
+        "lib/sl4-wp71/zxing.wp7.1.XML",
+        "lib/sl4-wp71/zxing.wp7.1.dll",
+        "lib/sl4/zxing.sl4.XML",
+        "lib/sl4/zxing.sl4.dll",
+        "lib/sl5/zxing.sl5.XML",
+        "lib/sl5/zxing.sl5.dll",
+        "lib/uap10/zxing.dll",
+        "lib/uap10/zxing.pri",
+        "lib/uap10/zxing.xml",
+        "lib/windows8-managed/zxing.winrt.XML",
+        "lib/windows8-managed/zxing.winrt.dll",
+        "lib/windows8/zxing.XML",
+        "lib/windows8/zxing.pri",
+        "lib/windows8/zxing.winmd",
+        "lib/wp8/zxing.wp8.0.XML",
+        "lib/wp8/zxing.wp8.0.dll",
+        "logo.jpg",
+        "zxing.net.0.16.9.nupkg.sha512",
+        "zxing.net.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net7.0-android33.0": [
+      "Camera.MAUI >= 1.2.1",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -25066,6 +27083,7 @@
       "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1"
     ],
     "net7.0-ios16.1": [
+      "Camera.MAUI >= 1.2.1",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -25075,6 +27093,7 @@
       "Syncfusion.Maui.Gauges >= 21.1.37"
     ],
     "net7.0-maccatalyst16.1": [
+      "Camera.MAUI >= 1.2.1",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -25084,6 +27103,7 @@
       "Syncfusion.Maui.Gauges >= 21.1.37"
     ],
     "net7.0-windows10.0.19041": [
+      "Camera.MAUI >= 1.2.1",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -25157,6 +27177,10 @@
       "net7.0-android33.0": {
         "targetAlias": "net7.0-android",
         "dependencies": {
+          "Camera.MAUI": {
+            "target": "Package",
+            "version": "[1.2.1, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -25279,6 +27303,10 @@
       "net7.0-ios16.1": {
         "targetAlias": "net7.0-ios",
         "dependencies": {
+          "Camera.MAUI": {
+            "target": "Package",
+            "version": "[1.2.1, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -25346,6 +27374,10 @@
       "net7.0-maccatalyst16.1": {
         "targetAlias": "net7.0-maccatalyst",
         "dependencies": {
+          "Camera.MAUI": {
+            "target": "Package",
+            "version": "[1.2.1, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -25414,6 +27446,10 @@
       "net7.0-windows10.0.19041": {
         "targetAlias": "net7.0-windows10.0.19041.0",
         "dependencies": {
+          "Camera.MAUI": {
+            "target": "Package",
+            "version": "[1.2.1, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
