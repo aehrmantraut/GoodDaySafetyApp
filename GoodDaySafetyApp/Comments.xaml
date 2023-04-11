@@ -5,7 +5,7 @@
              Title="Comments">
     <ScrollView>
         <VerticalStackLayout>
-            <Entry Placeholder="Enter any additional comments relating to the concern" />
+            <Editor Placeholder="Enter any additional comments relating to the concern" />
             <Button 
                 x:Name ="NextPage" 
                 Text="Next" 
