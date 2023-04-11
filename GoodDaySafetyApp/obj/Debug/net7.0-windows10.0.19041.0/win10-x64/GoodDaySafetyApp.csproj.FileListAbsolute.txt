@@ -598,3 +598,8 @@ C:\Users\kheid\OneDrive\Desktop\GoodDaySafetyApp\GoodDaySafetyApp\obj\Debug\net7
 C:\Users\kheid\OneDrive\Desktop\GoodDaySafetyApp\GoodDaySafetyApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\kheid\OneDrive\Desktop\GoodDaySafetyApp\GoodDaySafetyApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\kheid\OneDrive\Desktop\GoodDaySafetyApp\GoodDaySafetyApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\kheid\OneDrive\Desktop\GoodDaySafetyApp\GoodDaySafetyApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreenSplashScreen.scale-100.png
+C:\Users\kheid\OneDrive\Desktop\GoodDaySafetyApp\GoodDaySafetyApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreenSplashScreen.scale-125.png
+C:\Users\kheid\OneDrive\Desktop\GoodDaySafetyApp\GoodDaySafetyApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreenSplashScreen.scale-150.png
+C:\Users\kheid\OneDrive\Desktop\GoodDaySafetyApp\GoodDaySafetyApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreenSplashScreen.scale-200.png
+C:\Users\kheid\OneDrive\Desktop\GoodDaySafetyApp\GoodDaySafetyApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreenSplashScreen.scale-400.png

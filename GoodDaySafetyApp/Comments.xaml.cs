@@ -9,6 +9,6 @@ public partial class Comments : ContentPage
 
 	private void NextPage_Click(object sender, EventArgs e)
 	{
-		//Navigation.PushAsync(new UploadPhotos());
+		Navigation.PushAsync(new Picture());
 	}
 }

@@ -9,6 +9,7 @@ public partial class ProjectName : ContentPage
 
 	private void NextPage_Click(object sender, EventArgs e)
 	{
-		//Navigation.PushAsync(new ProjectLocation());
-	}
+        //Navigation.PushAsync(new ProjectLocation());
+        Navigation.PushAsync(new Comments());
+    }
 }
