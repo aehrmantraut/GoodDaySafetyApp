@@ -1,26 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\austi\\OneDrive\\Desktop\\School\\445\\github\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj": {}
+    "C:\\Users\\kheid\\OneDrive\\Desktop\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\austi\\OneDrive\\Desktop\\School\\445\\github\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj": {
+    "C:\\Users\\kheid\\OneDrive\\Desktop\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\austi\\OneDrive\\Desktop\\School\\445\\github\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj",
+        "projectUniqueName": "C:\\Users\\kheid\\OneDrive\\Desktop\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj",
         "projectName": "GoodDaySafetyApp",
-        "projectPath": "C:\\Users\\austi\\OneDrive\\Desktop\\School\\445\\github\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj",
-        "packagesPath": "C:\\Users\\austi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\austi\\OneDrive\\Desktop\\School\\445\\github\\GoodDaySafetyApp\\GoodDaySafetyApp\\obj\\",
+        "projectPath": "C:\\Users\\kheid\\OneDrive\\Desktop\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj",
+        "packagesPath": "C:\\Users\\kheid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kheid\\OneDrive\\Desktop\\GoodDaySafetyApp\\GoodDaySafetyApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\austi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kheid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0-android",
@@ -92,7 +94,7 @@
             },
             "Syncfusion.Maui.Gauges": {
               "target": "Package",
-              "version": "[21.1.37, )"
+              "version": "[21.1.39, )"
             },
             "Xamarin.Android.Glide": {
               "target": "Package",
@@ -214,7 +216,7 @@
             },
             "Syncfusion.Maui.Gauges": {
               "target": "Package",
-              "version": "[21.1.37, )"
+              "version": "[21.1.39, )"
             }
           },
           "imports": [
@@ -281,7 +283,7 @@
             },
             "Syncfusion.Maui.Gauges": {
               "target": "Package",
-              "version": "[21.1.37, )"
+              "version": "[21.1.39, )"
             }
           },
           "imports": [
@@ -365,7 +367,7 @@
             },
             "Syncfusion.Maui.Gauges": {
               "target": "Package",
-              "version": "[21.1.37, )"
+              "version": "[21.1.39, )"
             }
           },
           "imports": [
