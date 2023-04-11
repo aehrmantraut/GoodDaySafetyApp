@@ -270,3 +270,5 @@ C:\Users\kheid\OneDrive\Desktop\GoodDaySafetyApp\GoodDaySafetyApp\obj\Debug\net7
 C:\Users\kheid\OneDrive\Desktop\GoodDaySafetyApp\GoodDaySafetyApp\obj\Debug\net7.0-ios\iossimulator-x64\GoodDaySafetyApp.pdb
 C:\Users\kheid\OneDrive\Desktop\GoodDaySafetyApp\GoodDaySafetyApp\obj\Debug\net7.0-ios\iossimulator-x64\GoodDaySafetyApp.genruntimeconfig.cache
 C:\Users\kheid\OneDrive\Desktop\GoodDaySafetyApp\GoodDaySafetyApp\obj\Debug\net7.0-ios\iossimulator-x64\ref\GoodDaySafetyApp.dll
+C:\Users\kheid\OneDrive\Desktop\GoodDaySafetyApp\GoodDaySafetyApp\bin\Debug\net7.0-ios\iossimulator-x64\Camera.MAUI.dll
+C:\Users\kheid\OneDrive\Desktop\GoodDaySafetyApp\GoodDaySafetyApp\bin\Debug\net7.0-ios\iossimulator-x64\zxing.dll

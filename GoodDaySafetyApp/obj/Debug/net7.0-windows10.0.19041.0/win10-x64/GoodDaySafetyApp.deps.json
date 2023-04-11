@@ -19,7 +19,7 @@
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "7.0.59",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.755",
           "Microsoft.WindowsAppSDK": "1.2.221209.1",
-          "Syncfusion.Maui.Gauges": "21.1.37",
+          "Syncfusion.Maui.Gauges": "21.1.39",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "7.0.4",
           "runtimepack.Microsoft.Maui.Core.Runtime.win": "7.0.59",
           "runtimepack.Microsoft.Maui.Controls.Runtime.win": "7.0.59",
@@ -1008,26 +1008,26 @@
           }
         }
       },
-      "Syncfusion.Maui.Core/21.1.37": {
+      "Syncfusion.Maui.Core/21.1.39": {
         "runtime": {
           "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {
-            "assemblyVersion": "21.1.37.0",
-            "fileVersion": "21.1.37.0"
+            "assemblyVersion": "21.1.39.0",
+            "fileVersion": "21.1.39.0"
           },
           "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
-            "assemblyVersion": "21.1.37.0",
-            "fileVersion": "21.1.37.0"
+            "assemblyVersion": "21.1.39.0",
+            "fileVersion": "21.1.39.0"
           }
         }
       },
-      "Syncfusion.Maui.Gauges/21.1.37": {
+      "Syncfusion.Maui.Gauges/21.1.39": {
         "dependencies": {
-          "Syncfusion.Maui.Core": "21.1.37"
+          "Syncfusion.Maui.Core": "21.1.39"
         },
         "runtime": {
           "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
-            "assemblyVersion": "21.1.37.0",
-            "fileVersion": "21.1.37.0"
+            "assemblyVersion": "21.1.39.0",
+            "fileVersion": "21.1.39.0"
           }
         }
       },
@@ -1177,19 +1177,19 @@
       "path": "microsoft.windowsappsdk/1.2.221209.1",
       "hashPath": "microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512"
     },
-    "Syncfusion.Maui.Core/21.1.37": {
+    "Syncfusion.Maui.Core/21.1.39": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1hZfwNOOpM575Vzy76Putu9E61VWutv+QaZyi4HP4dZk1klb586wPWGSqjt5TMbbtebHQj1yE0Vvji05zVro+w==",
-      "path": "syncfusion.maui.core/21.1.37",
-      "hashPath": "syncfusion.maui.core.21.1.37.nupkg.sha512"
+      "sha512": "sha512-k2JVdUDY3DZY0Vr3C8DwcrM0Byl6ZXnO2CTrk3+cbP0RtILkPROvBgfo/wUe5bLHYGBShUaACd7LJGXH9DGnWg==",
+      "path": "syncfusion.maui.core/21.1.39",
+      "hashPath": "syncfusion.maui.core.21.1.39.nupkg.sha512"
     },
-    "Syncfusion.Maui.Gauges/21.1.37": {
+    "Syncfusion.Maui.Gauges/21.1.39": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-c76r6xF6H3hmhh7aaR/0w2xQuG2IJWXZ1Q+otggYdQ3E/wo2UghDLZlUw+35U41kUBaR+8T5CllUPjj8RwHgbg==",
-      "path": "syncfusion.maui.gauges/21.1.37",
-      "hashPath": "syncfusion.maui.gauges.21.1.37.nupkg.sha512"
+      "sha512": "sha512-0DdT6AU8aLedIpSLqUQqDhc1ECBIP5d4bJ257ADX6Dt3pAleltJ2giLdSJPDxt5dEAeXw13S09vJaJSDzZK3OA==",
+      "path": "syncfusion.maui.gauges/21.1.39",
+      "hashPath": "syncfusion.maui.gauges.21.1.39.nupkg.sha512"
     },
     "ZXing.Net/0.16.9": {
       "type": "package",

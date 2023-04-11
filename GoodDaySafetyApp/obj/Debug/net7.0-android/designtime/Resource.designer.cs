@@ -17229,31 +17229,6 @@ namespace GoodDaySafetyApp
 			}
 		}
 		
-		public partial class Mipmap
-		{
-			
-			// aapt resource value: 0x7F0D0000
-			public const int appicon = 2131558400;
-			
-			// aapt resource value: 0x7F0D0001
-			public const int appicon_background = 2131558401;
-			
-			// aapt resource value: 0x7F0D0002
-			public const int appicon_foreground = 2131558402;
-			
-			// aapt resource value: 0x7F0D0003
-			public const int appicon_round = 2131558403;
-			
-			static Mipmap()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Mipmap()
-			{
-			}
-		}
-		
 		public partial class Plurals
 		{
 			
@@ -20953,7 +20928,7 @@ namespace GoodDaySafetyApp
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030045,0x7F03004C,0x7F03004D,0x7F030119,0x7F03011A,0x7F03011B,0x7F03011C,0x7F03011D,0x7F03011E,0x7F030144,0x7F030159,0x7F03015A,0x7F030179,0x7F0301EF,0x7F0301F6,0x7F0301FC,0x7F0301FD,0x7F030201,0x7F030212,0x7F030228,0x7F0302A3,0x7F030323,0x7F03035A,0x7F030362,0x7F030363,0x7F0303DD,0x7F0303E1,0x7F030463,0x7F030471 }
+			// aapt resource value: { 0x7F030045,0x7F03004C,0x7F03004D,0x7F030119,0x7F03011A,0x7F03011B,0x7F03011C,0x7F03011D,0x7F03011E,0x7F030144,0x7F030159,0x7F03015A,0x7F030179,0x7F0301EF,0x7F0301F6,0x7F0301FC,0x7F0301FD,0x7F030201,0x7F030213,0x7F030229,0x7F0302A4,0x7F030324,0x7F03035B,0x7F030363,0x7F030364,0x7F0303DF,0x7F0303E3,0x7F030465,0x7F030473 }
 			public static int[] ActionBar = new int[] {
 					2130903109,
 					2130903116,
@@ -20973,17 +20948,17 @@ namespace GoodDaySafetyApp
 					2130903548,
 					2130903549,
 					2130903553,
-					2130903570,
-					2130903592,
-					2130903715,
-					2130903843,
-					2130903898,
-					2130903906,
+					2130903571,
+					2130903593,
+					2130903716,
+					2130903844,
+					2130903899,
 					2130903907,
-					2130904029,
-					2130904033,
-					2130904163,
-					2130904177};
+					2130903908,
+					2130904031,
+					2130904035,
+					2130904165,
+					2130904179};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
