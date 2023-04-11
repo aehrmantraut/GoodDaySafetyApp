@@ -20,4 +20,9 @@
         Title="Directional Area"
         ContentTemplate="{DataTemplate local:DirectionalArea}"
         Route="DirectionalArea" />
+
+    <ShellContent
+        Title="Picture"
+        ContentTemplate="{DataTemplate local:Picture}"
+        Route="Picture" />
 </Shell>

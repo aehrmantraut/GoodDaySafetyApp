@@ -9,6 +9,7 @@
     ".NETCoreApp,Version=v7.0/win10-x64": {
       "GoodDaySafetyApp/1.0": {
         "dependencies": {
+          "Camera.MAUI": "1.2.1",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0",
@@ -18,6 +19,7 @@
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "7.0.59",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.755",
           "Microsoft.WindowsAppSDK": "1.2.221209.1",
+          "Syncfusion.Maui.Gauges": "21.1.37",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "7.0.4",
           "runtimepack.Microsoft.Maui.Core.Runtime.win": "7.0.59",
           "runtimepack.Microsoft.Maui.Controls.Runtime.win": "7.0.59",
@@ -792,6 +794,17 @@
           }
         }
       },
+      "Camera.MAUI/1.2.1": {
+        "dependencies": {
+          "ZXing.Net": "0.16.9"
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {
+            "assemblyVersion": "1.2.1.0",
+            "fileVersion": "1.2.1.0"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
@@ -994,6 +1007,37 @@
             "fileVersion": "0.0.0.0"
           }
         }
+      },
+      "Syncfusion.Maui.Core/21.1.37": {
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "21.1.37.0",
+            "fileVersion": "21.1.37.0"
+          },
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "assemblyVersion": "21.1.37.0",
+            "fileVersion": "21.1.37.0"
+          }
+        }
+      },
+      "Syncfusion.Maui.Gauges/21.1.37": {
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.1.37"
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Gauges.dll": {
+            "assemblyVersion": "21.1.37.0",
+            "fileVersion": "21.1.37.0"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "assemblyVersion": "0.16.9.0",
+            "fileVersion": "0.16.9.0"
+          }
+        }
       }
     }
   },
@@ -1027,6 +1071,13 @@
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
+    },
+    "Camera.MAUI/1.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8jlJuMGCBB2V2DyY0TB1diyFkx/+gTGulIKs0fzqNjRlGncGVNZNY8Kx7HXbThF+Z5tbazZWiJFJDseHojMqjQ==",
+      "path": "camera.maui/1.2.1",
+      "hashPath": "camera.maui.1.2.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/7.0.0": {
       "type": "package",
@@ -1125,6 +1176,27 @@
       "sha512": "sha512-1Y8KDCmUqytdduubaQhRz6aqaP7YhVSPE/fHeqLMsK3DrV+eBThrqkM6R/8N2lu0mwkNfKSTSAhixrTR72nyWA==",
       "path": "microsoft.windowsappsdk/1.2.221209.1",
       "hashPath": "microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512"
+    },
+    "Syncfusion.Maui.Core/21.1.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1hZfwNOOpM575Vzy76Putu9E61VWutv+QaZyi4HP4dZk1klb586wPWGSqjt5TMbbtebHQj1yE0Vvji05zVro+w==",
+      "path": "syncfusion.maui.core/21.1.37",
+      "hashPath": "syncfusion.maui.core.21.1.37.nupkg.sha512"
+    },
+    "Syncfusion.Maui.Gauges/21.1.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c76r6xF6H3hmhh7aaR/0w2xQuG2IJWXZ1Q+otggYdQ3E/wo2UghDLZlUw+35U41kUBaR+8T5CllUPjj8RwHgbg==",
+      "path": "syncfusion.maui.gauges/21.1.37",
+      "hashPath": "syncfusion.maui.gauges.21.1.37.nupkg.sha512"
+    },
+    "ZXing.Net/0.16.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7WaVMHklpT3Ye2ragqRIwlFRsb6kOk63BOGADV0fan3ulVfGLUYkDi5yNUsZS/7FVNkWbtHAlDLmu4WnHGfqvQ==",
+      "path": "zxing.net/0.16.9",
+      "hashPath": "zxing.net.0.16.9.nupkg.sha512"
     }
   },
   "runtimes": {
