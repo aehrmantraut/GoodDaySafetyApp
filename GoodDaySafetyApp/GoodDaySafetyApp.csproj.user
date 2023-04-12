@@ -17,6 +17,9 @@
     <MauiXaml Update="Picture.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="ProjectLocation.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="UnsafeConditions.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

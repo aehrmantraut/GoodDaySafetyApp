@@ -61,6 +61,9 @@
 	  <MauiXaml Update="Picture.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="ProjectLocation.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="UnsafeConditions.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

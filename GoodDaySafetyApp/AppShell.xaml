@@ -25,4 +25,9 @@
         Title="Picture"
         ContentTemplate="{DataTemplate local:Picture}"
         Route="Picture" />
+    <ShellContent
+        Title="Project Location"
+        ContentTemplate="{DataTemplate local:ProjectLocation}"
+        Route="ProjectLocation" />
+        
 </Shell>

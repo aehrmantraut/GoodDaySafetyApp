@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\austi\\OneDrive\\Desktop\\School\\445\\github\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj": {}
+    "C:\\Users\\wilsonm\\Documents\\GitHub\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\austi\\OneDrive\\Desktop\\School\\445\\github\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj": {
+    "C:\\Users\\wilsonm\\Documents\\GitHub\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\austi\\OneDrive\\Desktop\\School\\445\\github\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj",
+        "projectUniqueName": "C:\\Users\\wilsonm\\Documents\\GitHub\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj",
         "projectName": "GoodDaySafetyApp",
-        "projectPath": "C:\\Users\\austi\\OneDrive\\Desktop\\School\\445\\github\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj",
-        "packagesPath": "C:\\Users\\austi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\austi\\OneDrive\\Desktop\\School\\445\\github\\GoodDaySafetyApp\\GoodDaySafetyApp\\obj\\",
+        "projectPath": "C:\\Users\\wilsonm\\Documents\\GitHub\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj",
+        "packagesPath": "C:\\Users\\wilsonm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wilsonm\\Documents\\GitHub\\GoodDaySafetyApp\\GoodDaySafetyApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\austi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wilsonm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -182,7 +182,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
@@ -253,7 +253,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
@@ -325,7 +325,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
@@ -398,11 +398,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[7.0.4, 7.0.4]"
+              "version": "[7.0.3, 7.0.3]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[7.0.4, 7.0.4]"
+              "version": "[7.0.3, 7.0.3]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -410,7 +410,7 @@
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[7.0.4, 7.0.4]"
+              "version": "[7.0.3, 7.0.3]"
             }
           ],
           "frameworkReferences": {
@@ -430,7 +430,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
