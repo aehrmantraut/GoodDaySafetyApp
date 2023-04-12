@@ -12,9 +12,19 @@
         Route="MainPage" />
 
     <ShellContent
+        Title="ProjectName"
+        ContentTemplate="{DataTemplate local:ProjectName}"
+        Route="ProjectName" />
+
+    <ShellContent
         Title="Unsafe Conditions"
         ContentTemplate="{DataTemplate local:UnsafeConditions}"
         Route="UnsafeConditions" />
+
+    <ShellContent
+        Title="Comments"
+        ContentTemplate="{DataTemplate local:Comments}"
+        Route="Comments" />
 
     <ShellContent
         Title="Directional Area"
