@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GoodDaySafetyApp.ProjectLocation"
+             Title="ProjectLocation">
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0">
+
+            <Label 
+            Padding="30"
+            Text="Please enter a project location." 
+            HorizontalOptions="Start" />
+
+            <Entry
+            x:Name="projectLocationTextBox"
+            Placeholder="Enter location here."
+            VerticalOptions="Center"
+            HorizontalOptions="Start" />
+
+            <HorizontalStackLayout>
+                <Button
+            Text="Submit"
+            VerticalOptions="Start"
+            HorizontalOptions="Start" 
+            Clicked="Button_Clicked_1"/>
+                <Button 
+                x:Name ="NextPage" 
+                Text="Next" 
+                Clicked="NextPage_Click"/>
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

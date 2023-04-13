@@ -64,7 +64,10 @@
                 <Label Text="Other - describe in comments section" VerticalOptions="Center"/>
 
             </HorizontalStackLayout>
-
+            <Button 
+                x:Name ="NextPage" 
+                Text="Next" 
+                Clicked="NextPage_Click"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

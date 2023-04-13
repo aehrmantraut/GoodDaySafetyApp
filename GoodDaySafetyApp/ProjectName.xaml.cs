@@ -1,13 +1,13 @@
 namespace GoodDaySafetyApp;
 
-public partial class UnsafeConditions : ContentPage
+public partial class ProjectName : ContentPage
 {
-	public UnsafeConditions()
+	public ProjectName()
 	{
 		InitializeComponent();
 	}
     private void NextPage_Click(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new Comments());
+        Navigation.PushAsync(new ProjectLocation());
     }
 }

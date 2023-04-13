@@ -26,6 +26,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = GoodDaySafetyApp.AppShell.
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/austi/OneDrive/Desktop/School/445/github/GoodDaySafetyApp/GoodDaySafetyApp/Comments.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GoodDaySafetyApp.Comments.xaml
+build_metadata.AdditionalFiles.TargetPath = Comments.xaml
+build_metadata.AdditionalFiles.RelativePath = Comments.xaml
+
 [C:/Users/austi/OneDrive/Desktop/School/445/github/GoodDaySafetyApp/GoodDaySafetyApp/DirectionalArea.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GoodDaySafetyApp.DirectionalArea.xaml
@@ -44,6 +50,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = GoodDaySafetyApp.Picture.x
 build_metadata.AdditionalFiles.TargetPath = Picture.xaml
 build_metadata.AdditionalFiles.RelativePath = Picture.xaml
 
+[C:/Users/austi/OneDrive/Desktop/School/445/github/GoodDaySafetyApp/GoodDaySafetyApp/ProjectLocation.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GoodDaySafetyApp.ProjectLocation.xaml
+build_metadata.AdditionalFiles.TargetPath = ProjectLocation.xaml
+build_metadata.AdditionalFiles.RelativePath = ProjectLocation.xaml
+
+[C:/Users/austi/OneDrive/Desktop/School/445/github/GoodDaySafetyApp/GoodDaySafetyApp/ProjectName.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GoodDaySafetyApp.ProjectName.xaml
+build_metadata.AdditionalFiles.TargetPath = ProjectName.xaml
+build_metadata.AdditionalFiles.RelativePath = ProjectName.xaml
+
 [C:/Users/austi/OneDrive/Desktop/School/445/github/GoodDaySafetyApp/GoodDaySafetyApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GoodDaySafetyApp.Resources.Styles.Colors.xaml
@@ -55,6 +73,18 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GoodDaySafetyApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/austi/OneDrive/Desktop/School/445/github/GoodDaySafetyApp/GoodDaySafetyApp/SceneSafe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GoodDaySafetyApp.SceneSafe.xaml
+build_metadata.AdditionalFiles.TargetPath = SceneSafe.xaml
+build_metadata.AdditionalFiles.RelativePath = SceneSafe.xaml
+
+[C:/Users/austi/OneDrive/Desktop/School/445/github/GoodDaySafetyApp/GoodDaySafetyApp/StartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GoodDaySafetyApp.StartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = StartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = StartPage.xaml
 
 [C:/Users/austi/OneDrive/Desktop/School/445/github/GoodDaySafetyApp/GoodDaySafetyApp/UnsafeConditions.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

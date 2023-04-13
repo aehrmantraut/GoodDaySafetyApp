@@ -14,4 +14,13 @@ public partial class Picture : ContentPage
 			await cameraView.StartCameraAsync(); 
 		}); 
 	}
+    private void CameraBtn_Clicked(object sender, EventArgs e)
+    {
+        myImage.Source = cameraView.GetSnapShot(Camera.MAUI.ImageFormat.PNG);
+    }
+
+    private void NextPage_Click(object sender, EventArgs e)
+    {
+       // Navigation.PushAsync(new Submit());
+    }
 }

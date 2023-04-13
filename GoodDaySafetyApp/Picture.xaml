@@ -8,6 +8,18 @@
         <VerticalStackLayout>
             <cv:CameraView x:Name="cameraView" WidthRequest="300" HeightRequest="300"
                            CamerasLoaded="cameraView_CamerasLoaded"/>
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Button
+                x:Name="CameraBtn"
+                Text="Capture"
+                Clicked="CameraBtn_Clicked" />
+                <Button 
+                x:Name ="NextPage" 
+                Text="Next" 
+                Clicked="NextPage_Click"/>
+            </HorizontalStackLayout>
+
+            <Image x:Name="myImage" WidthRequest="200" HeightRequest="200" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

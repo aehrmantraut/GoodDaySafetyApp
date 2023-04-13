@@ -6,23 +6,61 @@
     xmlns:local="clr-namespace:GoodDaySafetyApp"
     Shell.FlyoutBehavior="Flyout">
 
+    <!-- Default .net maui page -->
+    <!-- <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />  -->   
+        
+    <!-- start page -->
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+        Title="Start"
+        ContentTemplate="{DataTemplate local:StartPage}"
+        Route ="StartPage" />
+    
+    <!-- can you make this safe -->
     <ShellContent
-        Title="Unsafe Conditions"
-        ContentTemplate="{DataTemplate local:UnsafeConditions}"
-        Route="UnsafeConditions" />
+        Title="SceneSafe"
+        ContentTemplate="{DataTemplate local:SceneSafe}"
+        Route ="SceneSafe" />
+    
+    <!-- Project name -->
+    <ShellContent
+        Title="ProjectName"
+        ContentTemplate="{DataTemplate local:ProjectName}"
+        Route="ProjectName" />
 
+    <!-- Project location -->
+    <ShellContent
+        Title="Project Location"
+        ContentTemplate="{DataTemplate local:ProjectLocation}"
+        Route="ProjectLocation" />
+
+    <!-- Directional Area -->
     <ShellContent
         Title="Directional Area"
         ContentTemplate="{DataTemplate local:DirectionalArea}"
         Route="DirectionalArea" />
 
+    <!-- Unsafe Conditions -->
+    <ShellContent
+        Title="Unsafe Conditions"
+        ContentTemplate="{DataTemplate local:UnsafeConditions}"
+        Route="UnsafeConditions" />
+    
+    <!-- Comments-->
+    <ShellContent
+        Title="Comments"
+        ContentTemplate="{DataTemplate local:Comments}"
+        Route="Comments" />
+
+    <!-- Picture -->
     <ShellContent
         Title="Picture"
         ContentTemplate="{DataTemplate local:Picture}"
         Route="Picture" />
+
+    <!-- Submission page-->    
+    
+    
 </Shell>
