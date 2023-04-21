@@ -1,26 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\austi\\OneDrive\\Desktop\\School\\445\\github\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj": {}
+    "C:\\Users\\eskro\\OneDrive\\Desktop\\capstone\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\austi\\OneDrive\\Desktop\\School\\445\\github\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj": {
+    "C:\\Users\\eskro\\OneDrive\\Desktop\\capstone\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\austi\\OneDrive\\Desktop\\School\\445\\github\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj",
+        "projectUniqueName": "C:\\Users\\eskro\\OneDrive\\Desktop\\capstone\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj",
         "projectName": "GoodDaySafetyApp",
-        "projectPath": "C:\\Users\\austi\\OneDrive\\Desktop\\School\\445\\github\\GoodDaySafetyApp\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj",
-        "packagesPath": "C:\\Users\\austi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\austi\\OneDrive\\Desktop\\School\\445\\github\\GoodDaySafetyApp\\GoodDaySafetyApp\\obj\\",
+        "projectPath": "C:\\Users\\eskro\\OneDrive\\Desktop\\capstone\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj",
+        "packagesPath": "C:\\Users\\eskro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eskro\\OneDrive\\Desktop\\capstone\\GoodDaySafetyApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\austi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eskro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0-android",
@@ -61,6 +63,10 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "dependencies": {
+            "Azure.Data.Tables": {
+              "target": "Package",
+              "version": "[12.8.0, )"
+            },
             "Camera.MAUI": {
               "target": "Package",
               "version": "[1.2.1, )"
@@ -187,6 +193,10 @@
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
+            "Azure.Data.Tables": {
+              "target": "Package",
+              "version": "[12.8.0, )"
+            },
             "Camera.MAUI": {
               "target": "Package",
               "version": "[1.2.1, )"
@@ -258,6 +268,10 @@
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
+            "Azure.Data.Tables": {
+              "target": "Package",
+              "version": "[12.8.0, )"
+            },
             "Camera.MAUI": {
               "target": "Package",
               "version": "[1.2.1, )"
@@ -330,6 +344,10 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "dependencies": {
+            "Azure.Data.Tables": {
+              "target": "Package",
+              "version": "[12.8.0, )"
+            },
             "Camera.MAUI": {
               "target": "Package",
               "version": "[1.2.1, )"
