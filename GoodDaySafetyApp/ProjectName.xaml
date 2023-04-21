@@ -5,7 +5,7 @@
              Title="ProjectName">
     <ScrollView>
         <VerticalStackLayout>
-            <Entry Placeholder="Enter Project Name" />
+            <Entry x:Name="projectNameEntry" Placeholder="Enter Project Name" />
             <Button 
                 x:Name ="NextPage" 
                 Text="Next" 

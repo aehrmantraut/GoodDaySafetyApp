@@ -6,61 +6,61 @@
     <ScrollView>
         <VerticalStackLayout>
             <HorizontalStackLayout VerticalOptions="Center">
-                <CheckBox/>
+                <CheckBox x:Name ="VehicleMachineToolbox"/>
                 <Label Text="Vehicle, machine, or tool" VerticalOptions="Center"/>
             </HorizontalStackLayout>
             <HorizontalStackLayout VerticalOptions="Center">
-                <CheckBox />
+                <CheckBox x:Name ="electicalbox" />
                 <Label Text="Electrical" VerticalOptions="Center"/>
 
             </HorizontalStackLayout>
             <HorizontalStackLayout VerticalOptions="Center">
-                <CheckBox />
+                <CheckBox x:Name ="flammableExplosivebox"/>
                 <Label Text="Flammable or explosion " VerticalOptions="Center"/>
 
             </HorizontalStackLayout>
             <HorizontalStackLayout VerticalOptions="Center">
-                <CheckBox />
+                <CheckBox x:Name ="breathingbox"/>
                 <Label Text="Breathing" VerticalOptions="Center"/>
 
             </HorizontalStackLayout>
             <HorizontalStackLayout VerticalOptions="Center">
-                <CheckBox />
+                <CheckBox x:Name ="cuttingStabbingbox" />
                 <Label Text="Cutting or stabbing" VerticalOptions="Center"/>
 
             </HorizontalStackLayout>
             <HorizontalStackLayout VerticalOptions="Center">
-                <CheckBox />
+                <CheckBox x:Name ="overheadbox" />
                 <Label Text="Overhead" VerticalOptions="Center"/>
 
             </HorizontalStackLayout>
             <HorizontalStackLayout VerticalOptions="Center">
-                <CheckBox />
+                <CheckBox x:Name="struckHitbox"/>
                 <Label Text="Struck or hit by" VerticalOptions="Center"/>
 
             </HorizontalStackLayout>
             <HorizontalStackLayout VerticalOptions="Center">
-                <CheckBox />
+                <CheckBox x:Name="ungaurdedEpeningEdgebox" />
                 <Label Text="Unguarded opening or edge" VerticalOptions="Center"/>
 
             </HorizontalStackLayout>
             <HorizontalStackLayout VerticalOptions="Center">
-                <CheckBox/>
+                <CheckBox x:Name="Unevenbox"/>
                 <Label Text="Uneven surface or tripping" VerticalOptions="Center"/>
 
             </HorizontalStackLayout>
             <HorizontalStackLayout VerticalOptions="Center">
-                <CheckBox />
+                <CheckBox x:Name="slipperybox"/>
                 <Label Text="Slippery" VerticalOptions="Center"/>
 
             </HorizontalStackLayout>
             <HorizontalStackLayout VerticalOptions="Center">
-                <CheckBox />
+                <CheckBox x:Name="unlitbox"/>
                 <Label Text="Unlit area" VerticalOptions="Center"/>
 
             </HorizontalStackLayout>
             <HorizontalStackLayout VerticalOptions="Center">
-                <CheckBox />
+                <CheckBox x:Name="otherbox"/>
                 <Label Text="Other - describe in comments section" VerticalOptions="Center"/>
 
             </HorizontalStackLayout>

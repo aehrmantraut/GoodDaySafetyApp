@@ -2,23 +2,17 @@ namespace GoodDaySafetyApp;
 
 public partial class ProjectLocation : ContentPage
 {
+    public string projectLocation;
 	public ProjectLocation()
 	{
 		InitializeComponent();
 	}
-    private void Button_Clicked(object sender, EventArgs e)
-    {
-
-    }
-
-    private void Button_Clicked_1(object sender, EventArgs e)
-    {
-        string userProjectLocation = projectLocationTextBox.Text;
-        projectLocationTextBox.Text = "";
-
-    }
     private void NextPage_Click(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new DirectionalArea());
+        projectLocation = projectLocationTextBox.Text;
+        if (projectLocation != null)
+        {
+            Navigation.PushAsync(new DirectionalArea());
+        }
     }
 }

@@ -11,8 +11,8 @@
                     Can you make the scene Safe?
                 </Label.Text>
             </Label>
-            <RadioButton Content="Yes"/>
-            <RadioButton Content="No"/>
+            <RadioButton x:Name="yesButton"  Content="Yes"/>
+            <RadioButton x:Name="noButton"  Content="No"/>
             <Button 
                 x:Name ="NextPage" 
                 Text="Next" 

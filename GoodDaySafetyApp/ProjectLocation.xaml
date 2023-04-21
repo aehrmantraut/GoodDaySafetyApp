@@ -20,11 +20,7 @@
             HorizontalOptions="Start" />
 
             <HorizontalStackLayout>
-                <Button
-            Text="Submit"
-            VerticalOptions="Start"
-            HorizontalOptions="Start" 
-            Clicked="Button_Clicked_1"/>
+               
                 <Button 
                 x:Name ="NextPage" 
                 Text="Next" 

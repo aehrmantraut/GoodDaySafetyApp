@@ -5,14 +5,14 @@
              Title="DirectionalArea">
     <ScrollView>
         <VerticalStackLayout>
-            <RadioButton Content="N"/>
-            <RadioButton Content="NE"/>
-            <RadioButton Content="E"/>
-            <RadioButton Content="SE"/>
-            <RadioButton Content="S"/>
-            <RadioButton Content="SW"/>
-            <RadioButton Content="W"/>
-            <RadioButton Content="NW" />
+            <RadioButton x:Name="Ndirectionentry" Content="N"/>
+            <RadioButton x:Name="NEdirectionentry" Content="NE"/>
+            <RadioButton x:Name="Edirectionentry" Content="E"/>
+            <RadioButton x:Name="SEdirectionentry" Content="SE"/>
+            <RadioButton x:Name="Sdirectionentry" Content="S"/>
+            <RadioButton x:Name="SWdirectionentry" Content="SW"/>
+            <RadioButton x:Name="Wdirectionentry" Content="W"/>
+            <RadioButton x:Name="NWdirectionentry" Content="NW" />
             <Button 
                 x:Name ="NextPage" 
                 Text="Next" 

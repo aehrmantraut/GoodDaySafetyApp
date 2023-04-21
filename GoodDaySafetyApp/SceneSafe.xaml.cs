@@ -1,7 +1,12 @@
+
+
+
+
 namespace GoodDaySafetyApp;
 
 public partial class SceneSafe : ContentPage
 {
+    public string value;
 	public SceneSafe()
 	{
 		InitializeComponent();
@@ -9,6 +14,17 @@ public partial class SceneSafe : ContentPage
 
     private void NextPage_Click(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new ProjectName());
+        if (yesButton.IsChecked == true)
+        {
+            value = "yes";
+            Navigation.PushAsync(new ProjectName());
+        }
+        else if (noButton.IsChecked == true)
+                {
+            value = "no";
+            Navigation.PushAsync(new ProjectName());
+        }
+    
+        
     }
 }
