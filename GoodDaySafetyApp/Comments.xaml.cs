@@ -2,7 +2,7 @@ namespace GoodDaySafetyApp;
 
 public partial class Comments : ContentPage
 {
-    public string comments;
+    public static string comments;
 	public Comments()
 	{
 		InitializeComponent();

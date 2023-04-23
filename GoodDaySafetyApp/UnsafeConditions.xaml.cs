@@ -6,7 +6,7 @@ namespace GoodDaySafetyApp;
 
 public partial class UnsafeConditions : ContentPage
 {
-    public string allconditions = "";
+    public static string allconditions = "";
    
 
     public UnsafeConditions()
@@ -16,7 +16,7 @@ public partial class UnsafeConditions : ContentPage
 
     public string Combinestring(string con)
     {
-        allconditions = allconditions + con;
+        allconditions +=  con;
         return allconditions;
     }
       

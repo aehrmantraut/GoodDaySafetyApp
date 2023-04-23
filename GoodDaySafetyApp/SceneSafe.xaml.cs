@@ -6,7 +6,7 @@ namespace GoodDaySafetyApp;
 
 public partial class SceneSafe : ContentPage
 {
-    public string value;
+    public static string value;
 	public SceneSafe()
 	{
 		InitializeComponent();

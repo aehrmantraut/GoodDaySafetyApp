@@ -2,7 +2,7 @@ namespace GoodDaySafetyApp;
 
 public partial class ProjectLocation : ContentPage
 {
-    public string projectLocation;
+    public static string projectLocation;
 	public ProjectLocation()
 	{
 		InitializeComponent();

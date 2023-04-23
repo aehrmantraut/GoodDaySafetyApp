@@ -5,8 +5,8 @@
              Title="ProjectLocation">
     <ScrollView>
         <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0">
+            Spacing="30"
+            Padding="20">
 
             <Label 
             Text="Please enter a project location." 

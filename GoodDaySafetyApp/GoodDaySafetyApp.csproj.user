@@ -21,6 +21,9 @@
     <MauiXaml Update="DirectionalArea.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Submitpage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Picture.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

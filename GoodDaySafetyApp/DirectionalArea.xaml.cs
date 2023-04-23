@@ -2,7 +2,7 @@ namespace GoodDaySafetyApp;
 
 public partial class DirectionalArea : ContentPage
 {
-	public string directionalArea;
+	public static string directionalArea;
 	public DirectionalArea()
 	{
 		InitializeComponent();

@@ -5,7 +5,7 @@ namespace GoodDaySafetyApp;
 
 public partial class StartPage : ContentPage
 {
-    public string name;
+    public static string name;
 	public StartPage()
 	{
 		InitializeComponent();

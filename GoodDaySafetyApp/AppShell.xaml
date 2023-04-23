@@ -60,7 +60,11 @@
         ContentTemplate="{DataTemplate local:Picture}"
         Route="Picture" />
 
-    <!-- Submission page-->    
-    
-    
+    <!-- Submission page-->
+    <ShellContent
+        Title="Submitpage"
+        ContentTemplate="{DataTemplate local:Submitpage}"
+        Route="Submitpage" />
+
+
 </Shell>

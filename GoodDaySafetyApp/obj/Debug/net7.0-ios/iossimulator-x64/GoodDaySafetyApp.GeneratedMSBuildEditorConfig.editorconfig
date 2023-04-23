@@ -82,6 +82,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = GoodDaySafetyApp.StartPage
 build_metadata.AdditionalFiles.TargetPath = StartPage.xaml
 build_metadata.AdditionalFiles.RelativePath = StartPage.xaml
 
+[C:/Users/eskro/OneDrive/Desktop/capstone/GoodDaySafetyApp/Submitpage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GoodDaySafetyApp.Submitpage.xaml
+build_metadata.AdditionalFiles.TargetPath = Submitpage.xaml
+build_metadata.AdditionalFiles.RelativePath = Submitpage.xaml
+
 [C:/Users/eskro/OneDrive/Desktop/capstone/GoodDaySafetyApp/UnsafeConditions.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GoodDaySafetyApp.UnsafeConditions.xaml
