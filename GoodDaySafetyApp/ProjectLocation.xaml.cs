@@ -10,9 +10,8 @@ public partial class ProjectLocation : ContentPage
     private void NextPage_Click(object sender, EventArgs e)
     {
         projectLocation = projectLocationTextBox.Text;
-        if (projectLocation != null)
-        {
+     
             Navigation.PushAsync(new DirectionalArea());
-        }
+       
     }
 }

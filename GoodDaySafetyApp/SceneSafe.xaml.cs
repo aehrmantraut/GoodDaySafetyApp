@@ -16,6 +16,7 @@ public partial class SceneSafe : ContentPage
     {
         if (yesButton.IsChecked == true)
         {
+           
             value = "yes";
             Navigation.PushAsync(new ProjectName());
         }

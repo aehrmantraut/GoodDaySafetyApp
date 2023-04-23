@@ -5,11 +5,22 @@
              Title="Comments">
     <ScrollView>
         <VerticalStackLayout>
-            <Editor Placeholder="Enter any additional comments relating to the concern" />
+            <Editor x:Name="commentsentry" Placeholder="Enter any additional comments relating to the concern" Text="" />
             <Button 
                 x:Name ="NextPage" 
                 Text="Next" 
-                Clicked="NextPage_Click"/>
+                Clicked="NextPage_Click">
+                <Button.Triggers>
+                <DataTrigger TargetType="Button"
+                     Binding="{Binding Source={x:Reference commentsentry},
+                                       Path=Text.Length}"
+                     Value="0">
+                    <Setter Property="IsEnabled"
+                          Value="False" />
+                    <!-- Multiple Setter elements are allowed -->
+                </DataTrigger>
+            </Button.Triggers>
+            </Button>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

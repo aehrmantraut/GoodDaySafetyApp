@@ -1,3 +1,6 @@
+using Microsoft.Maui.Controls;
+using static System.Net.Mime.MediaTypeNames;
+
 namespace GoodDaySafetyApp;
 
 public partial class Picture : ContentPage

@@ -16,7 +16,9 @@
                 <Button 
                 x:Name ="NextPage" 
                 Text="Next" 
-                Clicked="NextPage_Click"/>
+                Clicked="NextPage_Click">
+                 
+                </Button>
             </HorizontalStackLayout>
 
             <Image x:Name="myImage" WidthRequest="200" HeightRequest="200" />

@@ -1,87 +1,79 @@
 using System.Reflection.PortableExecutable;
+using System.Runtime.Intrinsics.X86;
+using System.Xml.Linq;
 
 namespace GoodDaySafetyApp;
 
 public partial class UnsafeConditions : ContentPage
 {
-    public string allconditions;
-    public string condition1;
-    public string condition2;
-    public string condition3;
-    public string condition4;
-    public string condition5;
-    public string condition6;
-    public string condition7;
-    public string condition8;
-    public string condition9;
-    public string condition10;
-    public string condition11;
-    public string condition12;
+    public string allconditions = "";
+   
 
     public UnsafeConditions()
     {
         InitializeComponent();
     }
 
-    public string combinestring()
+    public string Combinestring(string con)
     {
-        allconditions = condition1 + condition2 + condition3 + condition4 + condition5 + condition6 + condition7 + condition8 + condition9 + condition10 + condition11 + condition12 ;
+        allconditions = allconditions + con;
         return allconditions;
     }
-    
+      
 private void NextPage_Click(object sender, EventArgs e)
     {
         if (VehicleMachineToolbox.IsChecked)
         {
-            condition1 = "Vehicle/Machine/Tool ";
+            Combinestring("Vehicle/Machine/Tool , ");
         }
         if (electicalbox.IsChecked)
-        {
-            condition2 = "Electrical ";
+        {     
+            Combinestring("Electrical , ");
         }
         if (flammableExplosivebox.IsChecked)
         {
-            condition3 = "Flammable/Explosive ";
+            Combinestring("Flammable/Explosive , ");
         }
-        if (breathingbox.IsChecked)
+            if (breathingbox.IsChecked)    
         {
-            condition4 = "Breathing ";
+            Combinestring("Breathing , ");
         }
         if (VehicleMachineToolbox.IsChecked)
         {
-            condition5 = "Cutting/Stabbing ";
+            Combinestring("Cutting/Stabbing , ");
         }
         if (overheadbox.IsChecked)
-        {   
-            condition6 = "Overhead ";
+        {    
+            Combinestring("Overhead , ");
         }
         if (struckHitbox.IsChecked)
         {
-            condition7 = "Struck/Hit ";
+            Combinestring("Struck/Hit , ");
         }
         if (ungaurdedEpeningEdgebox.IsChecked)
         {
-            condition8 = "Ungaurded-opening/Edge ";
+            Combinestring("Ungaurded-opening/Edge , ");
         }
         if (Unevenbox.IsChecked)
         {
-            condition9 = "Uneven-surface/Tripping-hazard ";
+            Combinestring("Uneven-surface/Tripping-hazard , ");
         }
         if (slipperybox.IsChecked)
         {
-            condition10 = "Slippery ";
+            Combinestring("Slippery , ");
         }
         if (unlitbox.IsChecked)
-        {
-            condition11 = "unlit area ";
+        {   
+            Combinestring("unlit area , ");
         }
         if (otherbox.IsChecked)
         {
-            condition12 = "see comments ";
-        }
+            Combinestring("see comments , ");
+         }
         //not sure how to make it so atleast one is checked
-        combinestring();
-        Navigation.PushAsync(new Comments());
+       
+            Navigation.PushAsync(new Comments());
+        
     }
     
 }

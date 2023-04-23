@@ -67,7 +67,54 @@
             <Button 
                 x:Name ="NextPage" 
                 Text="Next" 
-                Clicked="NextPage_Click"/>
+                Clicked="NextPage_Click">
+                <Button.Triggers>
+                    <MultiTrigger TargetType="Button">
+                        <MultiTrigger.Conditions>
+                            <BindingCondition Binding="{Binding Source={x:Reference VehicleMachineToolbox},
+                                            Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference electicalbox},
+                                            Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference flammableExplosivebox},
+                                            Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference breathingbox},
+                                            Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference cuttingStabbingbox},
+                                             Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference overheadbox},
+                                            Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference struckHitbox},
+                                            Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference ungaurdedEpeningEdgebox},
+                                            Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference Unevenbox},
+                                            Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference slipperybox},
+                                            Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference unlitbox},
+                                            Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference  otherbox},
+                                            Path=IsChecked}"
+                                  Value="False" />
+
+                           
+                        </MultiTrigger.Conditions>
+                        <Setter Property="IsEnabled" Value="False" />
+                        <!-- multiple Setter elements are allowed -->
+                    </MultiTrigger>
+                </Button.Triggers>
+            </Button>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

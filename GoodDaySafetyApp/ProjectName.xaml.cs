@@ -10,9 +10,8 @@ public partial class ProjectName : ContentPage
     private void NextPage_Click(object sender, EventArgs e)
     {
         projectname = projectNameEntry.Text;
-        if (projectname != null)
-        {
-            Navigation.PushAsync(new ProjectLocation());
-        }
+       
+        Navigation.PushAsync(new ProjectLocation());
+        
     }
 }

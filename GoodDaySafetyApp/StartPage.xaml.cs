@@ -15,10 +15,8 @@ public partial class StartPage : ContentPage
     private void NextPage_Click(object sender, EventArgs e)
     {
          name = entry.Text;
-        if(name != null)
-        {
-            Navigation.PushAsync(new SceneSafe());
-        }
+         Navigation.PushAsync(new SceneSafe());
+   
     }
     
   

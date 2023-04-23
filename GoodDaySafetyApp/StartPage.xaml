@@ -15,15 +15,30 @@
 
 
             <Entry x:Name="entry"
+                   Text=""
                        Placeholder="Enter Name"
                       />
 
 
-            <Label Text="This is an anonymous app, and your identity is not traceable.  Name is only given to HR for truncation purposes." VerticalOptions="Center"/>
-            <Button 
-                x:Name ="NextPage" 
-                Text="Next" 
-                Clicked ="NextPage_Click"/>
+            <Label x:Name="label" Text="This is an anonymous app, and your identity is not traceable.  Name is only given to HR for truncation purposes." VerticalOptions="Center"/>
+
+            <Button x:Name ="NextPage" 
+                    Text="Next" 
+                    Clicked ="NextPage_Click" >
+                <Button.Triggers>
+                    <DataTrigger TargetType="Button"
+                     Binding="{Binding Source={x:Reference entry},
+                                       Path=Text.Length}"
+                     Value="0">
+                        <Setter Property="IsEnabled"
+                          Value="False" />
+                        <!-- Multiple Setter elements are allowed -->
+                    </DataTrigger>
+                </Button.Triggers>
+            </Button>
+
+          
+               
 
         </VerticalStackLayout>
     </ScrollView>

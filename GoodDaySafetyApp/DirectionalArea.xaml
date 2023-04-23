@@ -16,7 +16,40 @@
             <Button 
                 x:Name ="NextPage" 
                 Text="Next" 
-                Clicked="NextPage_Click"/>
+                Clicked="NextPage_Click">
+                <Button.Triggers>
+                    <MultiTrigger TargetType="Button">
+                        <MultiTrigger.Conditions>
+                            <BindingCondition Binding="{Binding Source={x:Reference Ndirectionentry},
+                                            Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference NEdirectionentry},
+                                            Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference Edirectionentry},
+                                            Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference SEdirectionentry},
+                                            Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference Sdirectionentry},
+                                             Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference SWdirectionentry},
+                                            Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference Wdirectionentry},
+                                            Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference NWdirectionentry},
+                                            Path=IsChecked}"
+                                  Value="False" />
+                        </MultiTrigger.Conditions>
+                        <Setter Property="IsEnabled" Value="False" />
+                        <!-- multiple Setter elements are allowed -->
+                    </MultiTrigger>
+                </Button.Triggers>
+            </Button>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

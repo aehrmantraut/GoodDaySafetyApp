@@ -13,10 +13,27 @@
             </Label>
             <RadioButton x:Name="yesButton"  Content="Yes"/>
             <RadioButton x:Name="noButton"  Content="No"/>
+
             <Button 
                 x:Name ="NextPage" 
                 Text="Next" 
-                Clicked ="NextPage_Click"/>
+                Clicked ="NextPage_Click">
+                <Button.Triggers>
+                    <MultiTrigger TargetType="Button">
+                        <MultiTrigger.Conditions>
+                            <BindingCondition Binding="{Binding Source={x:Reference noButton},
+                                            Path=IsChecked}"
+                                  Value="False" />
+                            <BindingCondition Binding="{Binding Source={x:Reference yesButton},
+                                             Path=IsChecked}"
+                                  Value="False" />
+                        </MultiTrigger.Conditions>
+                        <Setter Property="IsEnabled" Value="False" />
+                        <!-- multiple Setter elements are allowed -->
+                    </MultiTrigger>
+                </Button.Triggers>
+            </Button>
         </VerticalStackLayout>
+       
     </ScrollView>
 </ContentPage>
