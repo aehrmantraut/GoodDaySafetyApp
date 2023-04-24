@@ -38,7 +38,7 @@ private void NextPage_Click(object sender, EventArgs e)
         {
             Combinestring("Breathing , ");
         }
-        if (VehicleMachineToolbox.IsChecked)
+        if (cuttingStabbingbox.IsChecked)
         {
             Combinestring("Cutting/Stabbing , ");
         }
@@ -69,7 +69,7 @@ private void NextPage_Click(object sender, EventArgs e)
         if (otherbox.IsChecked)
         {
             Combinestring("see comments , ");
-         }
+        }
         //not sure how to make it so atleast one is checked
        
             Navigation.PushAsync(new Comments());

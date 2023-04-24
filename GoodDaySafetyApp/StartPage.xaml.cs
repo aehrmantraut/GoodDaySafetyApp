@@ -5,7 +5,8 @@ namespace GoodDaySafetyApp;
 
 public partial class StartPage : ContentPage
 {
-    public static string name;
+
+    public static string ID;
 	public StartPage()
 	{
 		InitializeComponent();
@@ -14,7 +15,7 @@ public partial class StartPage : ContentPage
 
     private void NextPage_Click(object sender, EventArgs e)
     {
-         name = entry.Text;
+         ID = entry.Text;
          Navigation.PushAsync(new SceneSafe());
    
     }

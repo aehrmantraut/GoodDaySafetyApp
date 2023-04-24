@@ -12,7 +12,7 @@ public partial class Submitpage : ContentPage
 	{
 		
 		InitializeComponent();
-		Namelabel.Text ="Name: " + StartPage.name;
+		Namelabel.Text ="Name: " + StartPage.ID;
         SceneSafelabel.Text = "Can you make the scene safe: " + SceneSafe.value;
         ProjectNamelabel.Text = "Project name: " + ProjectName.projectname;
         ProjectLocationlabel.Text = "project location: " + ProjectLocation.projectLocation;
@@ -31,13 +31,19 @@ public partial class Submitpage : ContentPage
     {
         using (SqlConnection connection = new SqlConnection("Server=tcp:gooddaysafety-test.database.windows.net,1433;Initial Catalog=Capstone-Test;Persist Security Info=False;User ID=gooddaysafety;Password=devPhase1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"))
         {
-            string savedata = "INSERT INTO ReportTable (UserID, MakeSafe, ProjectName, ProjectLocation,DirectionalArea, Conditions,Comments) VALUES ('4','YES', 'CapStone',' QBB','W ', 'ELECTRICAL','Exposed wire' );";
+            string savedata = "INSERT INTO ReportTable (UserID, MakeSafe, ProjectName, ProjectLocation,DirectionalArea, Conditions,Comments) VALUES (@UserID, @MakeSafe, @ProjectName, @ProjectLocation, @DirectionalArea, @Conditions, @Comments);";
 
                 using (SqlCommand querySavedata = new SqlCommand (savedata))
                 {
                 querySavedata.Connection = connection;
                 //  querySaveStaff.Parameters.Add("@staffName", SqlDbType.VarChar, 30).Value = name;
-
+                querySavedata.Parameters.Add("@UserID", SqlDbType.VarChar, 25).Value = StartPage.ID ;
+                querySavedata.Parameters.Add("@MakeSafe", SqlDbType.VarChar, 3).Value = SceneSafe.value;
+                querySavedata.Parameters.Add("@ProjectName", SqlDbType.VarChar, 50).Value = ProjectName.projectname;
+                querySavedata.Parameters.Add("@ProjectLocation", SqlDbType.VarChar, 50).Value = ProjectLocation.projectLocation;
+                querySavedata.Parameters.Add("@DirectionalArea", SqlDbType.VarChar, 50).Value = DirectionalArea.directionalArea;
+                querySavedata.Parameters.Add("@Conditions", SqlDbType.VarChar, 255).Value = UnsafeConditions.allconditions;
+                querySavedata.Parameters.Add("@Comments", SqlDbType.VarChar, 400).Value = Comments.comments;
                 connection.Open();
 
                 querySavedata.ExecuteNonQuery();

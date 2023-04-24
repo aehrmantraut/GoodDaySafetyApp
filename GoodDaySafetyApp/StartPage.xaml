@@ -9,18 +9,18 @@
 
             <Label>
                 <Label.Text>
-                    Please Enter your full Name.
+                    Please Enter your Worker ID.
                 </Label.Text>
             </Label>
 
 
             <Entry x:Name="entry"
                    Text=""
-                       Placeholder="Enter Name"
+                       Placeholder="Enter ID"
                       />
 
 
-            <Label x:Name="label" Text="This is an anonymous app, and your identity is not traceable.  Name is only given to HR for truncation purposes." VerticalOptions="Center"/>
+            <Label x:Name="label" Text="This is an anonymous app, and your identity is not traceable.  ID is only given to HR for truncation purposes." VerticalOptions="Center"/>
 
             <Button x:Name ="NextPage" 
                     Text="Next" 
