@@ -44,6 +44,7 @@ public partial class Submitpage : ContentPage
                 querySavedata.Parameters.Add("@DirectionalArea", SqlDbType.VarChar, 50).Value = DirectionalArea.directionalArea;
                 querySavedata.Parameters.Add("@Conditions", SqlDbType.VarChar, 255).Value = UnsafeConditions.allconditions;
                 querySavedata.Parameters.Add("@Comments", SqlDbType.VarChar, 400).Value = Comments.comments;
+               // querySavedata.Parameters.Add("@Attachment", SqlDbType.Image).Value = Picture.img;
                 connection.Open();
 
                 querySavedata.ExecuteNonQuery();
