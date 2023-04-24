@@ -14,8 +14,8 @@
         <Label  x:Name="DirectionalArealable" Text="" />
         <Label  x:Name="Commentslabel" Text="" />
 
-        <Image x:Name="ReviewImage" WidthRequest="200" HeightRequest="200" />
-            
+            <Image x:DataType="StreamImageSource" x:Name="ReviewImage" WidthRequest="200" HeightRequest="200" />
+
             <Button x:Name ="NextPage" 
                     Text="Submit" 
                     Clicked ="NextPage_Click" >

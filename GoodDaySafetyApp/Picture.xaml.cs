@@ -6,7 +6,7 @@ namespace GoodDaySafetyApp;
 
 public partial class Picture : ContentPage
 {
-   
+    public static ImageSource img;
     public Picture()
 	{
 		InitializeComponent();
@@ -22,7 +22,7 @@ public partial class Picture : ContentPage
     private void CameraBtn_Clicked(object sender, EventArgs e)
     {
       myImage.Source = cameraView.GetSnapShot(Camera.MAUI.ImageFormat.PNG);
-    
+        img = cameraView.GetSnapShot(Camera.MAUI.ImageFormat.PNG);
     }
 
     private void NextPage_Click(object sender, EventArgs e)

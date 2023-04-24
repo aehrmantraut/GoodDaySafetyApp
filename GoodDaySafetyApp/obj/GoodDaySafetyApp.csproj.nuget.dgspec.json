@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eskro\\OneDrive\\Desktop\\capstone\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj": {}
+    "C:\\Users\\eskro\\Downloads\\capestone\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eskro\\OneDrive\\Desktop\\capstone\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj": {
+    "C:\\Users\\eskro\\Downloads\\capestone\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eskro\\OneDrive\\Desktop\\capstone\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj",
+        "projectUniqueName": "C:\\Users\\eskro\\Downloads\\capestone\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj",
         "projectName": "GoodDaySafetyApp",
-        "projectPath": "C:\\Users\\eskro\\OneDrive\\Desktop\\capstone\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj",
+        "projectPath": "C:\\Users\\eskro\\Downloads\\capestone\\GoodDaySafetyApp\\GoodDaySafetyApp.csproj",
         "packagesPath": "C:\\Users\\eskro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eskro\\OneDrive\\Desktop\\capstone\\GoodDaySafetyApp\\obj\\",
+        "outputPath": "C:\\Users\\eskro\\Downloads\\capestone\\GoodDaySafetyApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -103,6 +103,10 @@
             "Syncfusion.Maui.Gauges": {
               "target": "Package",
               "version": "[21.1.37, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             },
             "Xamarin.Android.Glide": {
               "target": "Package",
@@ -233,6 +237,10 @@
             "Syncfusion.Maui.Gauges": {
               "target": "Package",
               "version": "[21.1.37, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             }
           },
           "imports": [
@@ -308,6 +316,10 @@
             "Syncfusion.Maui.Gauges": {
               "target": "Package",
               "version": "[21.1.37, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             }
           },
           "imports": [
@@ -400,6 +412,10 @@
             "Syncfusion.Maui.Gauges": {
               "target": "Package",
               "version": "[21.1.37, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             }
           },
           "imports": [
